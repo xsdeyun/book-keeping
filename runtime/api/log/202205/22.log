@@ -1,0 +1,831 @@
+[2022-05-22T10:38:38+08:00][sql] CONNECT:[ UseTime:0.000334s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:38:38+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000693s ]
+[2022-05-22T10:38:38+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000259s ]
+[2022-05-22T10:38:48+08:00][sql] CONNECT:[ UseTime:0.000344s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:38:48+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000712s ]
+[2022-05-22T10:38:48+08:00][sql] SELECT * FROM `pro_user` WHERE  `mobile` = '15224492302' LIMIT 1 [ RunTime:0.000441s ]
+[2022-05-22T10:38:50+08:00][sql] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:38:50+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000886s ]
+[2022-05-22T10:38:50+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000424s ]
+[2022-05-22T10:38:50+08:00][sql] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:38:50+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000744s ]
+[2022-05-22T10:38:50+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000518s ]
+[2022-05-22T10:38:54+08:00][sql] CONNECT:[ UseTime:0.000364s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:38:54+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000764s ]
+[2022-05-22T10:38:54+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000282s ]
+[2022-05-22T10:38:54+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000550s ]
+[2022-05-22T10:38:54+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 1  AND `status` = 1 [ RunTime:0.000235s ]
+[2022-05-22T10:38:54+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 1  AND `status` = 2 [ RunTime:0.000248s ]
+[2022-05-22T10:38:56+08:00][sql] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:38:56+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000749s ]
+[2022-05-22T10:38:56+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000280s ]
+[2022-05-22T10:38:56+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000583s ]
+[2022-05-22T10:38:56+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 1 [ RunTime:0.000223s ]
+[2022-05-22T10:38:56+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 2 [ RunTime:0.000227s ]
+[2022-05-22T10:39:02+08:00][sql] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:39:02+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000715s ]
+[2022-05-22T10:39:02+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000310s ]
+[2022-05-22T10:39:07+08:00][sql] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:39:07+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000750s ]
+[2022-05-22T10:39:07+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000292s ]
+[2022-05-22T10:39:08+08:00][sql] CONNECT:[ UseTime:0.000397s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:39:08+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000730s ]
+[2022-05-22T10:39:08+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000303s ]
+[2022-05-22T10:39:10+08:00][sql] CONNECT:[ UseTime:0.000324s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:39:10+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000904s ]
+[2022-05-22T10:39:10+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000250s ]
+[2022-05-22T10:39:10+08:00][sql] CONNECT:[ UseTime:0.000297s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:39:10+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000600s ]
+[2022-05-22T10:39:10+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000284s ]
+[2022-05-22T10:39:22+08:00][sql] CONNECT:[ UseTime:0.000341s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:39:22+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000749s ]
+[2022-05-22T10:39:22+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000301s ]
+[2022-05-22T10:39:28+08:00][sql] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:39:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000668s ]
+[2022-05-22T10:39:28+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000240s ]
+[2022-05-22T10:39:29+08:00][sql] CONNECT:[ UseTime:0.000593s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:39:29+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000673s ]
+[2022-05-22T10:39:29+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000310s ]
+[2022-05-22T10:43:49+08:00][sql] CONNECT:[ UseTime:0.000370s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:43:49+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000808s ]
+[2022-05-22T10:43:49+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000371s ]
+[2022-05-22T10:43:49+08:00][sql] CONNECT:[ UseTime:0.000424s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:43:49+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000658s ]
+[2022-05-22T10:43:49+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000230s ]
+[2022-05-22T10:44:59+08:00][sql] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:44:59+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000691s ]
+[2022-05-22T10:44:59+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000287s ]
+[2022-05-22T10:44:59+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000526s ]
+[2022-05-22T10:44:59+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 1 [ RunTime:0.000254s ]
+[2022-05-22T10:44:59+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 2 [ RunTime:0.000226s ]
+[2022-05-22T10:45:01+08:00][error] [8]未定义数组索引: rules[/www/wwwroot/yunjian.qingyunjian.cn/app/api/controller/Product.php:50]
+[2022-05-22T10:45:21+08:00][sql] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:45:21+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000746s ]
+[2022-05-22T10:45:21+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000275s ]
+[2022-05-22T10:45:21+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000548s ]
+[2022-05-22T10:45:21+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 1 [ RunTime:0.000236s ]
+[2022-05-22T10:45:21+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 2 [ RunTime:0.000290s ]
+[2022-05-22T10:45:28+08:00][sql] CONNECT:[ UseTime:0.000454s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:45:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000898s ]
+[2022-05-22T10:45:28+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000327s ]
+[2022-05-22T10:45:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000713s ]
+[2022-05-22T10:45:28+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 1 [ RunTime:0.000273s ]
+[2022-05-22T10:45:28+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 2 [ RunTime:0.000290s ]
+[2022-05-22T10:45:45+08:00][sql] CONNECT:[ UseTime:0.000367s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:45:45+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000702s ]
+[2022-05-22T10:45:45+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000268s ]
+[2022-05-22T10:45:45+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000534s ]
+[2022-05-22T10:45:45+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 1 [ RunTime:0.000254s ]
+[2022-05-22T10:45:45+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 2 [ RunTime:0.000231s ]
+[2022-05-22T10:48:23+08:00][sql] CONNECT:[ UseTime:0.000357s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:48:23+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000766s ]
+[2022-05-22T10:48:23+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000373s ]
+[2022-05-22T10:48:23+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000513s ]
+[2022-05-22T10:48:23+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 1 [ RunTime:0.000251s ]
+[2022-05-22T10:48:23+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 2 [ RunTime:0.000213s ]
+[2022-05-22T10:48:27+08:00][sql] CONNECT:[ UseTime:0.000352s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:48:27+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000736s ]
+[2022-05-22T10:48:27+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000309s ]
+[2022-05-22T10:48:27+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000552s ]
+[2022-05-22T10:48:27+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 1 [ RunTime:0.000237s ]
+[2022-05-22T10:48:27+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 2 [ RunTime:0.000221s ]
+[2022-05-22T10:48:37+08:00][sql] CONNECT:[ UseTime:0.000333s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:48:37+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000752s ]
+[2022-05-22T10:48:37+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000345s ]
+[2022-05-22T10:48:37+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000664s ]
+[2022-05-22T10:48:37+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 1 [ RunTime:0.000240s ]
+[2022-05-22T10:48:37+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 2 [ RunTime:0.000215s ]
+[2022-05-22T10:49:01+08:00][sql] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:49:01+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000698s ]
+[2022-05-22T10:49:01+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000307s ]
+[2022-05-22T10:49:01+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000492s ]
+[2022-05-22T10:49:01+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 1 [ RunTime:0.000255s ]
+[2022-05-22T10:49:01+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 2 [ RunTime:0.000262s ]
+[2022-05-22T10:49:11+08:00][sql] CONNECT:[ UseTime:0.000351s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:49:11+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000736s ]
+[2022-05-22T10:49:11+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000264s ]
+[2022-05-22T10:49:11+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000525s ]
+[2022-05-22T10:49:11+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 1 [ RunTime:0.000230s ]
+[2022-05-22T10:49:11+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 24  AND `status` = 2 [ RunTime:0.000240s ]
+[2022-05-22T10:49:44+08:00][sql] CONNECT:[ UseTime:0.000399s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:49:44+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000804s ]
+[2022-05-22T10:49:44+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000352s ]
+[2022-05-22T10:49:44+08:00][sql] CONNECT:[ UseTime:0.000249s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:49:44+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000705s ]
+[2022-05-22T10:49:44+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000220s ]
+[2022-05-22T10:50:26+08:00][sql] CONNECT:[ UseTime:0.000333s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:50:26+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000735s ]
+[2022-05-22T10:50:26+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000289s ]
+[2022-05-22T10:50:30+08:00][sql] CONNECT:[ UseTime:0.000373s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:50:30+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000910s ]
+[2022-05-22T10:50:30+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000423s ]
+[2022-05-22T10:50:30+08:00][sql] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:50:30+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000630s ]
+[2022-05-22T10:50:30+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000813s ]
+[2022-05-22T10:50:33+08:00][sql] CONNECT:[ UseTime:0.000353s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:50:33+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000699s ]
+[2022-05-22T10:50:33+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000320s ]
+[2022-05-22T10:50:33+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000530s ]
+[2022-05-22T10:50:33+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 1  AND `status` = 1 [ RunTime:0.000249s ]
+[2022-05-22T10:50:33+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 1  AND `status` = 2 [ RunTime:0.000220s ]
+[2022-05-22T10:52:55+08:00][sql] CONNECT:[ UseTime:0.000382s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:52:55+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000697s ]
+[2022-05-22T10:52:55+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000263s ]
+[2022-05-22T10:52:55+08:00][sql] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:52:55+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000688s ]
+[2022-05-22T10:52:55+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000280s ]
+[2022-05-22T10:53:00+08:00][sql] CONNECT:[ UseTime:0.000432s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:53:00+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000728s ]
+[2022-05-22T10:53:00+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000273s ]
+[2022-05-22T10:53:00+08:00][sql] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:53:00+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000702s ]
+[2022-05-22T10:53:00+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000270s ]
+[2022-05-22T10:53:01+08:00][sql] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:53:01+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000939s ]
+[2022-05-22T10:53:01+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000283s ]
+[2022-05-22T10:53:14+08:00][sql] CONNECT:[ UseTime:0.000341s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:53:14+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000733s ]
+[2022-05-22T10:53:14+08:00][sql] SELECT * FROM `pro_user` WHERE  `mobile` = '15224492302' LIMIT 1 [ RunTime:0.000261s ]
+[2022-05-22T10:53:16+08:00][sql] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:53:16+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.003143s ]
+[2022-05-22T10:53:16+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000229s ]
+[2022-05-22T10:53:17+08:00][sql] CONNECT:[ UseTime:0.000349s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:53:17+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000718s ]
+[2022-05-22T10:53:17+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000278s ]
+[2022-05-22T10:53:39+08:00][sql] CONNECT:[ UseTime:0.000460s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:53:39+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000691s ]
+[2022-05-22T10:53:39+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/e1125e0195dd90b88d1e2280f1bf2ad3.jpg' [ RunTime:0.005281s ]
+[2022-05-22T10:53:43+08:00][sql] CONNECT:[ UseTime:0.000342s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:53:43+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000717s ]
+[2022-05-22T10:53:43+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/844d19f8a4b2fc0788dadc90e245dee9.jpg' [ RunTime:0.004429s ]
+[2022-05-22T10:53:47+08:00][sql] CONNECT:[ UseTime:0.000370s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:53:47+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000679s ]
+[2022-05-22T10:53:47+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/3683e91e301f661239602b9799f5a6c6.jpg' [ RunTime:0.005000s ]
+[2022-05-22T10:55:55+08:00][sql] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:55:55+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000735s ]
+[2022-05-22T10:55:55+08:00][sql] INSERT INTO `pro_product` SET `color` = 'red' , `title` = '测试产品' , `specif` = '1个' , `desc` = '测试描述' , `time` = '1天' , `proposal` = '快速整改' , `rewpun` = '整改完成奖励100
+规定时间未完成罚款300' , `company` = '山东和美食品' , `createPerson` = '宋军歌' , `image` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/e1125e0195dd90b88d1e2280f1bf2ad3.jpg' [ RunTime:0.004771s ]
+[2022-05-22T10:55:55+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000529s ]
+[2022-05-22T10:55:55+08:00][sql] UPDATE `pro_image`  SET `type` = 'image' , `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/e1125e0195dd90b88d1e2280f1bf2ad3.jpg' , `size` = 28768 , `name` = 'swiper1.jpg' , `status` = success , `message` = '' , `id` = 23 , `pid` = 25  WHERE  `id` = 23 [ RunTime:0.006526s ]
+[2022-05-22T10:55:55+08:00][sql] UPDATE `pro_image`  SET `type` = 'image' , `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/844d19f8a4b2fc0788dadc90e245dee9.jpg' , `size` = 37683 , `name` = 'swiper2.jpg' , `status` = success , `message` = '' , `id` = 24 , `pid` = 25  WHERE  `id` = 24 [ RunTime:0.006687s ]
+[2022-05-22T10:55:55+08:00][sql] UPDATE `pro_image`  SET `type` = 'image' , `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/3683e91e301f661239602b9799f5a6c6.jpg' , `size` = 34330 , `name` = 'swiper3.jpg' , `status` = success , `message` = '' , `id` = 25 , `pid` = 25  WHERE  `id` = 25 [ RunTime:0.003343s ]
+[2022-05-22T10:56:17+08:00][sql] CONNECT:[ UseTime:0.000320s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:56:17+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000699s ]
+[2022-05-22T10:56:17+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000256s ]
+[2022-05-22T10:56:17+08:00][sql] CONNECT:[ UseTime:0.000366s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:56:17+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000692s ]
+[2022-05-22T10:56:17+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000277s ]
+[2022-05-22T10:56:20+08:00][sql] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:56:20+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.001065s ]
+[2022-05-22T10:56:20+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000290s ]
+[2022-05-22T10:56:20+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000514s ]
+[2022-05-22T10:56:20+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 25  AND `status` = 1 [ RunTime:0.000259s ]
+[2022-05-22T10:56:20+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 25  AND `status` = 2 [ RunTime:0.000207s ]
+[2022-05-22T10:56:58+08:00][sql] CONNECT:[ UseTime:0.000409s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:56:58+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000720s ]
+[2022-05-22T10:56:58+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000271s ]
+[2022-05-22T10:56:58+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000536s ]
+[2022-05-22T10:56:58+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 25  AND `status` = 1 [ RunTime:0.000234s ]
+[2022-05-22T10:56:58+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 25  AND `status` = 2 [ RunTime:0.000221s ]
+[2022-05-22T10:57:07+08:00][sql] CONNECT:[ UseTime:0.000348s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:57:07+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000650s ]
+[2022-05-22T10:57:07+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/f86dc168645d514ac44dff32208001e4.jpg' [ RunTime:0.004137s ]
+[2022-05-22T10:57:09+08:00][sql] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:57:09+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000784s ]
+[2022-05-22T10:57:09+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/e15a8132c04038da1824001dd2d46637.jpg' [ RunTime:0.005432s ]
+[2022-05-22T10:57:10+08:00][sql] CONNECT:[ UseTime:0.000350s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:57:10+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000713s ]
+[2022-05-22T10:57:10+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/d24800eca6bf8747b950308f4728e2a0.jpg' [ RunTime:0.004793s ]
+[2022-05-22T10:57:24+08:00][sql] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:57:24+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000757s ]
+[2022-05-22T10:57:24+08:00][sql] UPDATE `pro_product`  SET `id` = 25 , `color` = 'red' , `title` = '测试产品' , `image` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/e1125e0195dd90b88d1e2280f1bf2ad3.jpg' , `specif` = '1个' , `desc` = '测试描述' , `time` = '1天' , `proposal` = '快速整改' , `rewpun` = '整改完成奖励100
+规定时间未完成罚款300' , `zg_image` = NULL , `company` = '山东和美食品' , `createPerson` = '宋军歌' , `createTime` = '2022-05-22 10:55:55'  WHERE  `id` = 25 [ RunTime:0.004122s ]
+[2022-05-22T10:57:24+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000565s ]
+[2022-05-22T10:57:24+08:00][sql] UPDATE `pro_image`  SET `type` = 'image' , `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/f86dc168645d514ac44dff32208001e4.jpg' , `size` = 28768 , `name` = 'swiper1.jpg' , `status` = 2 , `message` = '' , `id` = 26 , `pid` = 25  WHERE  `id` = 26 [ RunTime:0.004310s ]
+[2022-05-22T10:57:24+08:00][sql] UPDATE `pro_image`  SET `type` = 'image' , `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/e15a8132c04038da1824001dd2d46637.jpg' , `size` = 37683 , `name` = 'swiper2.jpg' , `status` = 2 , `message` = '' , `id` = 27 , `pid` = 25  WHERE  `id` = 27 [ RunTime:0.003675s ]
+[2022-05-22T10:57:24+08:00][sql] UPDATE `pro_image`  SET `type` = 'image' , `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/d24800eca6bf8747b950308f4728e2a0.jpg' , `size` = 34330 , `name` = 'swiper3.jpg' , `status` = 2 , `message` = '' , `id` = 28 , `pid` = 25  WHERE  `id` = 28 [ RunTime:0.003536s ]
+[2022-05-22T10:57:28+08:00][sql] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:57:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000688s ]
+[2022-05-22T10:57:28+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000225s ]
+[2022-05-22T10:57:29+08:00][sql] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:57:29+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000713s ]
+[2022-05-22T10:57:29+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000360s ]
+[2022-05-22T10:57:30+08:00][sql] CONNECT:[ UseTime:0.000578s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:57:30+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000904s ]
+[2022-05-22T10:57:30+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000438s ]
+[2022-05-22T10:57:30+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000541s ]
+[2022-05-22T10:57:30+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 25  AND `status` = 1 [ RunTime:0.000240s ]
+[2022-05-22T10:57:30+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 25  AND `status` = 2 [ RunTime:0.000210s ]
+[2022-05-22T10:57:41+08:00][sql] CONNECT:[ UseTime:0.000411s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:57:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000736s ]
+[2022-05-22T10:57:41+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000397s ]
+[2022-05-22T10:57:44+08:00][sql] CONNECT:[ UseTime:0.000351s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:57:44+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000718s ]
+[2022-05-22T10:57:44+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000386s ]
+[2022-05-22T10:57:44+08:00][sql] CONNECT:[ UseTime:0.000238s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:57:44+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000693s ]
+[2022-05-22T10:57:44+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000298s ]
+[2022-05-22T10:57:45+08:00][sql] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:57:45+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000724s ]
+[2022-05-22T10:57:45+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000293s ]
+[2022-05-22T10:57:47+08:00][sql] CONNECT:[ UseTime:0.000343s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:57:47+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000700s ]
+[2022-05-22T10:57:47+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000249s ]
+[2022-05-22T10:57:47+08:00][sql] CONNECT:[ UseTime:0.000327s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:57:47+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000759s ]
+[2022-05-22T10:57:47+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000280s ]
+[2022-05-22T10:58:48+08:00][sql] CONNECT:[ UseTime:0.000447s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:58:48+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000695s ]
+[2022-05-22T10:58:48+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000248s ]
+[2022-05-22T10:58:48+08:00][sql] CONNECT:[ UseTime:0.000622s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T10:58:48+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000603s ]
+[2022-05-22T10:58:48+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000316s ]
+[2022-05-22T11:02:41+08:00][sql] CONNECT:[ UseTime:0.000479s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T11:02:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000692s ]
+[2022-05-22T11:02:41+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` = '1' LIMIT 1 [ RunTime:0.000322s ]
+[2022-05-22T11:02:41+08:00][sql] INSERT INTO `pro_user` SET `username` = '1' , `mobile` = '1' , `password` = '1' , `company` = '1' [ RunTime:0.003861s ]
+[2022-05-22T11:02:59+08:00][sql] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T11:02:59+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000696s ]
+[2022-05-22T11:02:59+08:00][sql] SELECT * FROM `pro_user` WHERE  `mobile` = '15224492302' LIMIT 1 [ RunTime:0.000250s ]
+[2022-05-22T11:03:02+08:00][sql] CONNECT:[ UseTime:0.000943s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T11:03:02+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.001491s ]
+[2022-05-22T11:03:02+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000389s ]
+[2022-05-22T11:03:02+08:00][sql] CONNECT:[ UseTime:0.000949s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T11:03:02+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000920s ]
+[2022-05-22T11:03:02+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000245s ]
+[2022-05-22T11:03:03+08:00][sql] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T11:03:03+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000729s ]
+[2022-05-22T11:03:03+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000335s ]
+[2022-05-22T11:03:03+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000542s ]
+[2022-05-22T11:03:03+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 25  AND `status` = 1 [ RunTime:0.000251s ]
+[2022-05-22T11:03:03+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 25  AND `status` = 2 [ RunTime:0.000212s ]
+[2022-05-22T11:03:20+08:00][sql] CONNECT:[ UseTime:0.000349s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T11:03:20+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000730s ]
+[2022-05-22T11:03:20+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000394s ]
+[2022-05-22T11:03:21+08:00][sql] CONNECT:[ UseTime:0.000353s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T11:03:21+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000707s ]
+[2022-05-22T11:03:21+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000300s ]
+[2022-05-22T11:03:21+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000643s ]
+[2022-05-22T11:03:21+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 25  AND `status` = 1 [ RunTime:0.000268s ]
+[2022-05-22T11:03:21+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 25  AND `status` = 2 [ RunTime:0.000210s ]
+[2022-05-22T11:03:30+08:00][sql] CONNECT:[ UseTime:0.000436s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T11:03:30+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000715s ]
+[2022-05-22T11:03:30+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000284s ]
+[2022-05-22T11:03:31+08:00][sql] CONNECT:[ UseTime:0.000375s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T11:03:31+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000769s ]
+[2022-05-22T11:03:31+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000308s ]
+[2022-05-22T11:03:32+08:00][sql] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T11:03:32+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000701s ]
+[2022-05-22T11:03:32+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000250s ]
+[2022-05-22T11:03:32+08:00][sql] CONNECT:[ UseTime:0.000269s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T11:03:32+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000717s ]
+[2022-05-22T11:03:32+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000580s ]
+[2022-05-22T11:03:41+08:00][sql] CONNECT:[ UseTime:0.000414s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T11:03:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000961s ]
+[2022-05-22T11:03:41+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000318s ]
+[2022-05-22T11:03:41+08:00][sql] CONNECT:[ UseTime:0.000243s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T11:03:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000941s ]
+[2022-05-22T11:03:41+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000222s ]
+[2022-05-22T11:32:27+08:00][sql] CONNECT:[ UseTime:0.000340s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T11:32:27+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000666s ]
+[2022-05-22T11:32:27+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/5fd3c0200b17b02bd34a6b1ddf0b9790.jpg' [ RunTime:0.005773s ]
+[2022-05-22T11:57:24+08:00][sql] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T11:57:24+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000681s ]
+[2022-05-22T11:57:24+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/9e93de4ae61915da523c8336df41c116.jpg' [ RunTime:0.004793s ]
+[2022-05-22T12:22:57+08:00][sql] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:22:57+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000682s ]
+[2022-05-22T12:22:57+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` = '桑志强' LIMIT 1 [ RunTime:0.000256s ]
+[2022-05-22T12:22:57+08:00][sql] INSERT INTO `pro_user` SET `username` = '桑志强' , `mobile` = '13563072176' , `password` = '840720' , `company` = '山东和美食品有限公司' [ RunTime:0.004236s ]
+[2022-05-22T12:23:18+08:00][sql] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:23:18+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000691s ]
+[2022-05-22T12:23:18+08:00][sql] SELECT * FROM `pro_user` WHERE  `mobile` = '13563072176' LIMIT 1 [ RunTime:0.000288s ]
+[2022-05-22T12:23:20+08:00][sql] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:23:20+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000718s ]
+[2022-05-22T12:23:20+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000277s ]
+[2022-05-22T12:23:20+08:00][sql] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:23:20+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.001032s ]
+[2022-05-22T12:23:20+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000295s ]
+[2022-05-22T12:23:25+08:00][sql] CONNECT:[ UseTime:0.000446s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:23:25+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000810s ]
+[2022-05-22T12:23:25+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000298s ]
+[2022-05-22T12:24:10+08:00][sql] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:24:10+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000713s ]
+[2022-05-22T12:24:10+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000400s ]
+[2022-05-22T12:26:30+08:00][sql] CONNECT:[ UseTime:0.000456s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:26:30+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000719s ]
+[2022-05-22T12:26:30+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000289s ]
+[2022-05-22T12:26:43+08:00][sql] CONNECT:[ UseTime:0.000351s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:26:43+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.002582s ]
+[2022-05-22T12:26:43+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000290s ]
+[2022-05-22T12:26:53+08:00][sql] CONNECT:[ UseTime:0.000397s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:26:53+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000761s ]
+[2022-05-22T12:26:53+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000279s ]
+[2022-05-22T12:27:04+08:00][sql] CONNECT:[ UseTime:0.000383s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:27:04+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000706s ]
+[2022-05-22T12:27:04+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000289s ]
+[2022-05-22T12:27:15+08:00][sql] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:27:15+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000881s ]
+[2022-05-22T12:27:15+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000259s ]
+[2022-05-22T12:27:15+08:00][sql] CONNECT:[ UseTime:0.000273s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:27:15+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.001100s ]
+[2022-05-22T12:27:15+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000360s ]
+[2022-05-22T12:27:18+08:00][sql] CONNECT:[ UseTime:0.000336s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:27:18+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000732s ]
+[2022-05-22T12:27:18+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000326s ]
+[2022-05-22T12:27:21+08:00][sql] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:27:21+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000688s ]
+[2022-05-22T12:27:21+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000293s ]
+[2022-05-22T12:27:23+08:00][sql] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:27:23+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000727s ]
+[2022-05-22T12:27:23+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000288s ]
+[2022-05-22T12:27:25+08:00][sql] CONNECT:[ UseTime:0.000367s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:27:25+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000760s ]
+[2022-05-22T12:27:25+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000293s ]
+[2022-05-22T12:27:27+08:00][sql] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:27:27+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000717s ]
+[2022-05-22T12:27:27+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000289s ]
+[2022-05-22T12:28:33+08:00][sql] CONNECT:[ UseTime:0.000420s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:28:33+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000925s ]
+[2022-05-22T12:28:33+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000251s ]
+[2022-05-22T12:28:33+08:00][sql] CONNECT:[ UseTime:0.000282s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:28:33+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000647s ]
+[2022-05-22T12:28:33+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000300s ]
+[2022-05-22T12:29:46+08:00][sql] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:29:46+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000957s ]
+[2022-05-22T12:29:46+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000318s ]
+[2022-05-22T12:29:46+08:00][sql] CONNECT:[ UseTime:0.000394s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:29:46+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000679s ]
+[2022-05-22T12:29:46+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000262s ]
+[2022-05-22T12:29:52+08:00][sql] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:29:52+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000838s ]
+[2022-05-22T12:29:52+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000302s ]
+[2022-05-22T12:29:55+08:00][sql] CONNECT:[ UseTime:0.000566s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:29:55+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000777s ]
+[2022-05-22T12:29:55+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000335s ]
+[2022-05-22T12:30:34+08:00][sql] CONNECT:[ UseTime:0.000424s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:30:34+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000756s ]
+[2022-05-22T12:30:34+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000301s ]
+[2022-05-22T12:30:34+08:00][sql] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:30:34+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000734s ]
+[2022-05-22T12:30:34+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000288s ]
+[2022-05-22T12:30:42+08:00][sql] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:30:42+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000752s ]
+[2022-05-22T12:30:42+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000284s ]
+[2022-05-22T12:30:46+08:00][sql] CONNECT:[ UseTime:0.000354s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:30:46+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000697s ]
+[2022-05-22T12:30:46+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000366s ]
+[2022-05-22T12:31:08+08:00][sql] CONNECT:[ UseTime:0.000340s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:31:08+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000667s ]
+[2022-05-22T12:31:08+08:00][sql] SELECT * FROM `pro_user` WHERE  `mobile` = '13563072176' LIMIT 1 [ RunTime:0.000314s ]
+[2022-05-22T12:31:10+08:00][sql] CONNECT:[ UseTime:0.000408s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:31:10+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000748s ]
+[2022-05-22T12:31:10+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000457s ]
+[2022-05-22T12:31:10+08:00][sql] CONNECT:[ UseTime:0.000269s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:31:10+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.001117s ]
+[2022-05-22T12:31:10+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000301s ]
+[2022-05-22T12:31:12+08:00][sql] CONNECT:[ UseTime:0.000385s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:31:12+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000708s ]
+[2022-05-22T12:31:12+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000383s ]
+[2022-05-22T12:31:18+08:00][sql] CONNECT:[ UseTime:0.000399s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:31:18+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000764s ]
+[2022-05-22T12:31:18+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000303s ]
+[2022-05-22T12:31:20+08:00][sql] CONNECT:[ UseTime:0.000336s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:31:20+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000713s ]
+[2022-05-22T12:31:20+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000337s ]
+[2022-05-22T12:31:44+08:00][sql] CONNECT:[ UseTime:0.000397s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T12:31:44+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000693s ]
+[2022-05-22T12:31:44+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000292s ]
+[2022-05-22T15:59:29+08:00][sql] CONNECT:[ UseTime:0.000386s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T15:59:29+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000741s ]
+[2022-05-22T15:59:29+08:00][sql] DELETE FROM `pro_image` WHERE  `id` = 28 [ RunTime:0.004321s ]
+[2022-05-22T15:59:36+08:00][sql] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T15:59:36+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000673s ]
+[2022-05-22T15:59:36+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/908ab97a3b2002555cff0ff0db287196.jpg' [ RunTime:0.005832s ]
+[2022-05-22T16:05:07+08:00][sql] CONNECT:[ UseTime:0.000363s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:05:07+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000742s ]
+[2022-05-22T16:05:07+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/1bf00a22adfd0e89933929be680cd74b.jpg' [ RunTime:0.006096s ]
+[2022-05-22T16:06:23+08:00][sql] CONNECT:[ UseTime:0.000326s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:06:23+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000650s ]
+[2022-05-22T16:06:23+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/539a5d9a2e05438d288dd84b11ff5b18.jpg' [ RunTime:0.004556s ]
+[2022-05-22T16:07:46+08:00][sql] CONNECT:[ UseTime:0.000339s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:07:46+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000733s ]
+[2022-05-22T16:07:46+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/730be26f3c475a2c77161ba3095021fd.jpg' [ RunTime:0.004888s ]
+[2022-05-22T16:08:10+08:00][sql] CONNECT:[ UseTime:0.000344s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:08:10+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000662s ]
+[2022-05-22T16:08:10+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/2cbf637782ece47db180cb4edbdea106.jpg' [ RunTime:0.004461s ]
+[2022-05-22T16:11:09+08:00][sql] CONNECT:[ UseTime:0.000357s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:11:09+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000889s ]
+[2022-05-22T16:11:09+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/f84ce1bae7eb7de2b3e7168afacc9bac.png' [ RunTime:0.005550s ]
+[2022-05-22T16:12:44+08:00][sql] CONNECT:[ UseTime:0.000752s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:12:44+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000873s ]
+[2022-05-22T16:12:44+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/a47892b60754015fb5361680fa66a359.png' [ RunTime:0.004409s ]
+[2022-05-22T16:13:09+08:00][sql] CONNECT:[ UseTime:0.000335s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:13:09+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000627s ]
+[2022-05-22T16:13:09+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/f68448c89e030d5f3d0d1cf2779f9c52.jpg' [ RunTime:0.004997s ]
+[2022-05-22T16:15:54+08:00][sql] CONNECT:[ UseTime:0.000366s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:15:54+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000667s ]
+[2022-05-22T16:15:54+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/35a7448d0dee33e0b70c2297161680e8.jpg' [ RunTime:0.004238s ]
+[2022-05-22T16:18:11+08:00][sql] CONNECT:[ UseTime:0.000399s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:18:11+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000746s ]
+[2022-05-22T16:18:11+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000421s ]
+[2022-05-22T16:19:14+08:00][sql] CONNECT:[ UseTime:0.005521s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:19:14+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000753s ]
+[2022-05-22T16:19:14+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000321s ]
+[2022-05-22T16:19:14+08:00][sql] CONNECT:[ UseTime:0.005610s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:19:14+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000952s ]
+[2022-05-22T16:19:14+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000314s ]
+[2022-05-22T16:19:17+08:00][sql] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:19:17+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.001288s ]
+[2022-05-22T16:19:17+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000582s ]
+[2022-05-22T16:19:17+08:00][sql] CONNECT:[ UseTime:0.000797s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:19:17+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.001025s ]
+[2022-05-22T16:19:17+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000659s ]
+[2022-05-22T16:19:23+08:00][sql] CONNECT:[ UseTime:0.000346s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:19:23+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000670s ]
+[2022-05-22T16:19:23+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000318s ]
+[2022-05-22T16:19:25+08:00][sql] CONNECT:[ UseTime:0.000401s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:19:25+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000738s ]
+[2022-05-22T16:19:25+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000295s ]
+[2022-05-22T16:19:25+08:00][sql] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:19:25+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000624s ]
+[2022-05-22T16:19:25+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000286s ]
+[2022-05-22T16:19:32+08:00][sql] CONNECT:[ UseTime:0.000487s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:19:32+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000672s ]
+[2022-05-22T16:19:32+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000220s ]
+[2022-05-22T16:19:39+08:00][sql] CONNECT:[ UseTime:0.000359s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:19:39+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.001080s ]
+[2022-05-22T16:19:39+08:00][sql] SELECT * FROM `pro_user` WHERE  `mobile` = '15224492302' LIMIT 1 [ RunTime:0.000325s ]
+[2022-05-22T16:19:41+08:00][sql] CONNECT:[ UseTime:0.000349s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:19:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000690s ]
+[2022-05-22T16:19:41+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000396s ]
+[2022-05-22T16:19:41+08:00][sql] CONNECT:[ UseTime:0.000412s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:19:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000662s ]
+[2022-05-22T16:19:41+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000311s ]
+[2022-05-22T16:20:23+08:00][sql] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:20:23+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000684s ]
+[2022-05-22T16:20:23+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/61bf96a18caf487168d4870fdcb7bca9.jpeg' [ RunTime:0.005124s ]
+[2022-05-22T16:20:25+08:00][sql] CONNECT:[ UseTime:0.000335s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:20:25+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000684s ]
+[2022-05-22T16:20:25+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/b91e0b33d713822638c4fb2c3940b6fd.jpeg' [ RunTime:0.004676s ]
+[2022-05-22T16:20:28+08:00][sql] CONNECT:[ UseTime:0.000339s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:20:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000792s ]
+[2022-05-22T16:20:28+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/2d295e6ec092d97147eaa5670e1edc6b.jpeg' [ RunTime:0.004114s ]
+[2022-05-22T16:21:51+08:00][sql] CONNECT:[ UseTime:0.000500s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:21:51+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000740s ]
+[2022-05-22T16:21:51+08:00][sql] INSERT INTO `pro_product` SET `color` = 'red' , `title` = '测试产品' , `specif` = '1个' , `desc` = '测试描述' , `time` = '限时3天' , `proposal` = '快速整改' , `rewpun` = '规定时间内整改完成奖励100
+规定时间内未完成罚款300' , `company` = '山东和美食品' , `createPerson` = '宋军歌' , `image` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/61bf96a18caf487168d4870fdcb7bca9.jpeg' [ RunTime:0.004107s ]
+[2022-05-22T16:21:51+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000575s ]
+[2022-05-22T16:21:51+08:00][sql] UPDATE `pro_image`  SET `type` = 'image' , `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/61bf96a18caf487168d4870fdcb7bca9.jpeg' , `size` = 1455686 , `name` = '49695727-4253-44BB-8E44-7D1F9589251E.jpeg' , `status` = 1 , `message` = '' , `id` = 40 , `pid` = 26  WHERE  `id` = 40 [ RunTime:0.006176s ]
+[2022-05-22T16:21:51+08:00][sql] UPDATE `pro_image`  SET `type` = 'image' , `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/b91e0b33d713822638c4fb2c3940b6fd.jpeg' , `size` = 1493039 , `name` = '99A6D629-2EA3-40D4-B4F9-38663C570D44.jpeg' , `status` = 1 , `message` = '' , `id` = 41 , `pid` = 26  WHERE  `id` = 41 [ RunTime:0.006451s ]
+[2022-05-22T16:21:51+08:00][sql] UPDATE `pro_image`  SET `type` = 'image' , `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/2d295e6ec092d97147eaa5670e1edc6b.jpeg' , `size` = 1402775 , `name` = '32E7E847-9AB2-415E-B909-92AEF2BD3A9A.jpeg' , `status` = 1 , `message` = '' , `id` = 42 , `pid` = 26  WHERE  `id` = 42 [ RunTime:0.003524s ]
+[2022-05-22T16:21:56+08:00][sql] CONNECT:[ UseTime:0.000413s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:21:56+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000747s ]
+[2022-05-22T16:21:56+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000296s ]
+[2022-05-22T16:21:58+08:00][sql] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:21:58+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.001045s ]
+[2022-05-22T16:21:58+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000305s ]
+[2022-05-22T16:21:58+08:00][sql] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:21:58+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000743s ]
+[2022-05-22T16:21:58+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000276s ]
+[2022-05-22T16:21:59+08:00][sql] CONNECT:[ UseTime:0.000635s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:21:59+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000757s ]
+[2022-05-22T16:21:59+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000467s ]
+[2022-05-22T16:22:01+08:00][sql] CONNECT:[ UseTime:0.000419s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:01+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000712s ]
+[2022-05-22T16:22:01+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000248s ]
+[2022-05-22T16:22:01+08:00][sql] CONNECT:[ UseTime:0.000345s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:01+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000735s ]
+[2022-05-22T16:22:01+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000279s ]
+[2022-05-22T16:22:02+08:00][sql] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:02+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000787s ]
+[2022-05-22T16:22:02+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000291s ]
+[2022-05-22T16:22:02+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000521s ]
+[2022-05-22T16:22:02+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 26  AND `status` = 1 [ RunTime:0.000255s ]
+[2022-05-22T16:22:02+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 26  AND `status` = 2 [ RunTime:0.000202s ]
+[2022-05-22T16:22:23+08:00][sql] CONNECT:[ UseTime:0.000376s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:23+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000704s ]
+[2022-05-22T16:22:23+08:00][sql] UPDATE `pro_product`  SET `id` = 26 , `color` = 'success' , `title` = '测试产品' , `image` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/61bf96a18caf487168d4870fdcb7bca9.jpeg' , `specif` = '1个' , `desc` = '测试描述' , `time` = '限时3天' , `proposal` = '快速整改' , `rewpun` = '规定时间内整改完成奖励100
+规定时间内未完成罚款300' , `zg_image` = NULL , `company` = '山东和美食品' , `createPerson` = '宋军歌' , `createTime` = '2022-05-22 16:21:51'  WHERE  `id` = 26 [ RunTime:0.004260s ]
+[2022-05-22T16:22:27+08:00][sql] CONNECT:[ UseTime:0.000405s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:27+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000750s ]
+[2022-05-22T16:22:27+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000303s ]
+[2022-05-22T16:22:28+08:00][sql] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.001231s ]
+[2022-05-22T16:22:28+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000761s ]
+[2022-05-22T16:22:28+08:00][sql] CONNECT:[ UseTime:0.000830s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000811s ]
+[2022-05-22T16:22:28+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.001503s ]
+[2022-05-22T16:22:35+08:00][sql] CONNECT:[ UseTime:0.000394s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:35+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000717s ]
+[2022-05-22T16:22:35+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000288s ]
+[2022-05-22T16:22:37+08:00][sql] CONNECT:[ UseTime:0.000497s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:37+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000719s ]
+[2022-05-22T16:22:37+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000288s ]
+[2022-05-22T16:22:37+08:00][sql] CONNECT:[ UseTime:0.000410s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:37+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000804s ]
+[2022-05-22T16:22:37+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000280s ]
+[2022-05-22T16:22:38+08:00][sql] CONNECT:[ UseTime:0.000509s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:38+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000744s ]
+[2022-05-22T16:22:38+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000428s ]
+[2022-05-22T16:22:39+08:00][sql] CONNECT:[ UseTime:0.000354s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:39+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000717s ]
+[2022-05-22T16:22:39+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000291s ]
+[2022-05-22T16:22:41+08:00][sql] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000703s ]
+[2022-05-22T16:22:41+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000361s ]
+[2022-05-22T16:22:41+08:00][sql] CONNECT:[ UseTime:0.000359s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000726s ]
+[2022-05-22T16:22:41+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000279s ]
+[2022-05-22T16:22:41+08:00][sql] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000786s ]
+[2022-05-22T16:22:41+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000429s ]
+[2022-05-22T16:22:43+08:00][sql] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:43+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000746s ]
+[2022-05-22T16:22:43+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000283s ]
+[2022-05-22T16:22:43+08:00][sql] CONNECT:[ UseTime:0.000424s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:43+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000793s ]
+[2022-05-22T16:22:43+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000292s ]
+[2022-05-22T16:22:44+08:00][sql] CONNECT:[ UseTime:0.000352s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:44+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000897s ]
+[2022-05-22T16:22:44+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000303s ]
+[2022-05-22T16:22:44+08:00][sql] CONNECT:[ UseTime:0.000375s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:22:44+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000831s ]
+[2022-05-22T16:22:44+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000298s ]
+[2022-05-22T16:25:14+08:00][sql] CONNECT:[ UseTime:0.000370s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:25:14+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000722s ]
+[2022-05-22T16:25:14+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000483s ]
+[2022-05-22T16:25:15+08:00][sql] CONNECT:[ UseTime:0.000342s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:25:15+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000903s ]
+[2022-05-22T16:25:15+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000416s ]
+[2022-05-22T16:25:16+08:00][sql] CONNECT:[ UseTime:0.000342s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:25:16+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000720s ]
+[2022-05-22T16:25:16+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'success%'  AND `company` LIKE '%' [ RunTime:0.000310s ]
+[2022-05-22T16:25:19+08:00][sql] CONNECT:[ UseTime:0.000500s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:25:19+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000991s ]
+[2022-05-22T16:25:19+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000283s ]
+[2022-05-22T16:25:19+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000530s ]
+[2022-05-22T16:25:19+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 26  AND `status` = 1 [ RunTime:0.000234s ]
+[2022-05-22T16:25:19+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 26  AND `status` = 2 [ RunTime:0.000204s ]
+[2022-05-22T16:25:26+08:00][sql] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:25:26+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000731s ]
+[2022-05-22T16:25:26+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000324s ]
+[2022-05-22T16:25:26+08:00][sql] CONNECT:[ UseTime:0.000373s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:25:26+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000722s ]
+[2022-05-22T16:25:26+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000421s ]
+[2022-05-22T16:25:27+08:00][sql] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:25:27+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000733s ]
+[2022-05-22T16:25:27+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'success%'  AND `company` LIKE '%' [ RunTime:0.000343s ]
+[2022-05-22T16:25:41+08:00][sql] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:25:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000717s ]
+[2022-05-22T16:25:41+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000311s ]
+[2022-05-22T16:25:41+08:00][sql] CONNECT:[ UseTime:0.000333s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:25:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000756s ]
+[2022-05-22T16:25:41+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000287s ]
+[2022-05-22T16:25:42+08:00][sql] CONNECT:[ UseTime:0.000458s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:25:42+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000703s ]
+[2022-05-22T16:25:42+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'success%'  AND `company` LIKE '%' [ RunTime:0.000333s ]
+[2022-05-22T16:25:54+08:00][sql] CONNECT:[ UseTime:0.000377s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:25:54+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000754s ]
+[2022-05-22T16:25:54+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000275s ]
+[2022-05-22T16:25:54+08:00][sql] CONNECT:[ UseTime:0.000344s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:25:54+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000702s ]
+[2022-05-22T16:25:54+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'success%'  AND `company` LIKE '%' [ RunTime:0.000316s ]
+[2022-05-22T16:25:55+08:00][sql] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:25:55+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000779s ]
+[2022-05-22T16:25:55+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000284s ]
+[2022-05-22T16:25:55+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000535s ]
+[2022-05-22T16:25:55+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 26  AND `status` = 1 [ RunTime:0.000239s ]
+[2022-05-22T16:25:55+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 26  AND `status` = 2 [ RunTime:0.000215s ]
+[2022-05-22T16:25:59+08:00][error] [8]未定义数组索引: rules[/www/wwwroot/yunjian.qingyunjian.cn/app/api/controller/Product.php:51]
+[2022-05-22T16:26:52+08:00][sql] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:26:52+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000729s ]
+[2022-05-22T16:26:52+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000387s ]
+[2022-05-22T16:26:52+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000608s ]
+[2022-05-22T16:26:52+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 26  AND `status` = 1 [ RunTime:0.000235s ]
+[2022-05-22T16:26:52+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 26  AND `status` = 2 [ RunTime:0.000242s ]
+[2022-05-22T16:26:56+08:00][sql] CONNECT:[ UseTime:0.000412s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:26:56+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000786s ]
+[2022-05-22T16:26:56+08:00][sql] UPDATE `pro_product`  SET `id` = 26 , `color` = 'yellow' , `title` = '测试产品' , `image` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/61bf96a18caf487168d4870fdcb7bca9.jpeg' , `specif` = '1个' , `desc` = '测试描述' , `time` = '限时3天' , `proposal` = '快速整改' , `rewpun` = '规定时间内整改完成奖励100
+规定时间内未完成罚款300' , `zg_image` = NULL , `company` = '山东和美食品' , `createPerson` = '宋军歌' , `createTime` = '2022-05-22 16:21:51'  WHERE  `id` = 26 [ RunTime:0.004560s ]
+[2022-05-22T16:27:01+08:00][sql] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:27:01+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000749s ]
+[2022-05-22T16:27:01+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000322s ]
+[2022-05-22T16:27:02+08:00][sql] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:27:02+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000783s ]
+[2022-05-22T16:27:02+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000325s ]
+[2022-05-22T16:27:02+08:00][sql] CONNECT:[ UseTime:0.000262s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:27:02+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000998s ]
+[2022-05-22T16:27:02+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000220s ]
+[2022-05-22T16:27:03+08:00][sql] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:27:03+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.001034s ]
+[2022-05-22T16:27:03+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000325s ]
+[2022-05-22T16:27:03+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000729s ]
+[2022-05-22T16:27:03+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 26  AND `status` = 1 [ RunTime:0.000261s ]
+[2022-05-22T16:27:03+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 26  AND `status` = 2 [ RunTime:0.000251s ]
+[2022-05-22T16:27:15+08:00][sql] CONNECT:[ UseTime:0.000470s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:27:15+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000767s ]
+[2022-05-22T16:27:15+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000265s ]
+[2022-05-22T16:27:15+08:00][sql] CONNECT:[ UseTime:0.000862s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:27:15+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.001490s ]
+[2022-05-22T16:27:15+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000623s ]
+[2022-05-22T16:27:26+08:00][sql] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:27:26+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000748s ]
+[2022-05-22T16:27:26+08:00][sql] DELETE FROM `pro_image` WHERE  `id` = 40 [ RunTime:0.005308s ]
+[2022-05-22T16:27:27+08:00][sql] CONNECT:[ UseTime:0.000338s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:27:27+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000698s ]
+[2022-05-22T16:27:27+08:00][sql] DELETE FROM `pro_image` WHERE  `id` = 41 [ RunTime:0.003592s ]
+[2022-05-22T16:27:28+08:00][sql] CONNECT:[ UseTime:0.000401s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:27:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000692s ]
+[2022-05-22T16:27:28+08:00][sql] DELETE FROM `pro_image` WHERE  `id` = 42 [ RunTime:0.004927s ]
+[2022-05-22T16:27:35+08:00][sql] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:27:35+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000805s ]
+[2022-05-22T16:27:35+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000305s ]
+[2022-05-22T16:27:35+08:00][sql] CONNECT:[ UseTime:0.000424s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:27:35+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000689s ]
+[2022-05-22T16:27:35+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000351s ]
+[2022-05-22T16:27:36+08:00][sql] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:27:36+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000949s ]
+[2022-05-22T16:27:36+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000341s ]
+[2022-05-22T16:27:36+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000567s ]
+[2022-05-22T16:27:36+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 26  AND `status` = 1 [ RunTime:0.000264s ]
+[2022-05-22T16:27:36+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 26  AND `status` = 2 [ RunTime:0.000212s ]
+[2022-05-22T16:28:02+08:00][sql] CONNECT:[ UseTime:0.000278s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:28:02+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000668s ]
+[2022-05-22T16:28:02+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000287s ]
+[2022-05-22T16:28:02+08:00][sql] CONNECT:[ UseTime:0.000361s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:28:02+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000928s ]
+[2022-05-22T16:28:02+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000290s ]
+[2022-05-22T16:28:15+08:00][sql] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:28:15+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000722s ]
+[2022-05-22T16:28:15+08:00][sql] SELECT * FROM `pro_user` WHERE  `mobile` = '15224492302' LIMIT 1 [ RunTime:0.000486s ]
+[2022-05-22T16:28:17+08:00][sql] CONNECT:[ UseTime:0.000433s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:28:17+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000825s ]
+[2022-05-22T16:28:17+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000548s ]
+[2022-05-22T16:28:17+08:00][sql] CONNECT:[ UseTime:0.001004s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:28:17+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000646s ]
+[2022-05-22T16:28:17+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000227s ]
+[2022-05-22T16:29:26+08:00][sql] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:29:26+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000628s ]
+[2022-05-22T16:29:26+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/bc808406905b0c80aeab0d45dcf142a5.jpg' [ RunTime:0.004191s ]
+[2022-05-22T16:29:27+08:00][sql] CONNECT:[ UseTime:0.000325s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:29:27+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000709s ]
+[2022-05-22T16:29:27+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/425040a9cbdc6f9fe7df215a467b223b.jpg' [ RunTime:0.003692s ]
+[2022-05-22T16:29:33+08:00][sql] CONNECT:[ UseTime:0.000354s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:29:33+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000695s ]
+[2022-05-22T16:29:33+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/e27c280f5a89b3bb693a5c7300d625b9.jpg' [ RunTime:0.004692s ]
+[2022-05-22T16:30:29+08:00][sql] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:30:29+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000725s ]
+[2022-05-22T16:30:29+08:00][sql] INSERT INTO `pro_product` SET `color` = 'red' , `title` = '测试产品' , `specif` = '1个' , `desc` = '测试描述' , `time` = '限时3天' , `proposal` = '快速整改' , `rewpun` = '规定时间内完成奖励100
+规定时间内未完成罚款300' , `company` = '山东和美食品' , `createPerson` = '宋军歌' , `image` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/bc808406905b0c80aeab0d45dcf142a5.jpg' [ RunTime:0.004531s ]
+[2022-05-22T16:30:29+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000531s ]
+[2022-05-22T16:30:29+08:00][sql] UPDATE `pro_image`  SET `type` = 'image' , `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/bc808406905b0c80aeab0d45dcf142a5.jpg' , `size` = 37683 , `name` = 'swiper2.jpg' , `status` = 1 , `message` = '' , `id` = 43 , `pid` = 27  WHERE  `id` = 43 [ RunTime:0.005254s ]
+[2022-05-22T16:30:29+08:00][sql] UPDATE `pro_image`  SET `type` = 'image' , `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/425040a9cbdc6f9fe7df215a467b223b.jpg' , `size` = 34330 , `name` = 'swiper3.jpg' , `status` = 1 , `message` = '' , `id` = 44 , `pid` = 27  WHERE  `id` = 44 [ RunTime:0.005234s ]
+[2022-05-22T16:30:29+08:00][sql] UPDATE `pro_image`  SET `type` = 'image' , `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/e27c280f5a89b3bb693a5c7300d625b9.jpg' , `size` = 28768 , `name` = 'swiper1.jpg' , `status` = 1 , `message` = '' , `id` = 45 , `pid` = 27  WHERE  `id` = 45 [ RunTime:0.003044s ]
+[2022-05-22T16:30:34+08:00][sql] CONNECT:[ UseTime:0.000411s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:30:34+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000729s ]
+[2022-05-22T16:30:34+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000369s ]
+[2022-05-22T16:30:35+08:00][sql] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:30:35+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.001137s ]
+[2022-05-22T16:30:35+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000314s ]
+[2022-05-22T16:30:35+08:00][sql] CONNECT:[ UseTime:0.000438s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:30:35+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.001088s ]
+[2022-05-22T16:30:35+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000341s ]
+[2022-05-22T16:30:36+08:00][sql] CONNECT:[ UseTime:0.000383s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:30:36+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000792s ]
+[2022-05-22T16:30:36+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000272s ]
+[2022-05-22T16:30:36+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000543s ]
+[2022-05-22T16:30:36+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 27  AND `status` = 1 [ RunTime:0.000243s ]
+[2022-05-22T16:30:36+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 27  AND `status` = 2 [ RunTime:0.000210s ]
+[2022-05-22T16:34:08+08:00][sql] CONNECT:[ UseTime:0.000335s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:34:08+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.001941s ]
+[2022-05-22T16:34:08+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000234s ]
+[2022-05-22T16:34:26+08:00][sql] CONNECT:[ UseTime:0.000332s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:34:26+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000710s ]
+[2022-05-22T16:34:26+08:00][sql] SELECT * FROM `pro_user` WHERE  `mobile` = '15224492302' LIMIT 1 [ RunTime:0.000312s ]
+[2022-05-22T16:34:29+08:00][sql] CONNECT:[ UseTime:0.000354s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:34:29+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000747s ]
+[2022-05-22T16:34:29+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000318s ]
+[2022-05-22T16:34:29+08:00][sql] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:34:29+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000686s ]
+[2022-05-22T16:34:29+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000204s ]
+[2022-05-22T16:34:32+08:00][sql] CONNECT:[ UseTime:0.000332s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:34:32+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000712s ]
+[2022-05-22T16:34:32+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000336s ]
+[2022-05-22T16:34:32+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000541s ]
+[2022-05-22T16:34:32+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 27  AND `status` = 1 [ RunTime:0.000262s ]
+[2022-05-22T16:34:32+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 27  AND `status` = 2 [ RunTime:0.000211s ]
+[2022-05-22T16:34:35+08:00][sql] CONNECT:[ UseTime:0.000382s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:34:35+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000916s ]
+[2022-05-22T16:34:35+08:00][sql] UPDATE `pro_product`  SET `id` = 27 , `color` = 'red' , `title` = '测试产品' , `image` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/bc808406905b0c80aeab0d45dcf142a5.jpg' , `specif` = '1个' , `desc` = '测试描述' , `time` = '限时3天' , `proposal` = '快速整改' , `rewpun` = '规定时间内完成奖励100
+规定时间内未完成罚款300' , `zg_image` = NULL , `company` = '山东和美食品' , `createPerson` = '宋军歌' , `createTime` = '2022-05-22 16:30:29'  WHERE  `id` = 27 [ RunTime:0.009296s ]
+[2022-05-22T16:34:39+08:00][sql] CONNECT:[ UseTime:0.000350s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:34:39+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000721s ]
+[2022-05-22T16:34:39+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000385s ]
+[2022-05-22T16:34:39+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000586s ]
+[2022-05-22T16:34:39+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 27  AND `status` = 1 [ RunTime:0.000272s ]
+[2022-05-22T16:34:39+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 27  AND `status` = 2 [ RunTime:0.000208s ]
+[2022-05-22T16:34:44+08:00][sql] CONNECT:[ UseTime:0.000523s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:34:44+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000781s ]
+[2022-05-22T16:34:44+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000403s ]
+[2022-05-22T16:34:45+08:00][sql] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:34:45+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000707s ]
+[2022-05-22T16:34:45+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000293s ]
+[2022-05-22T16:34:45+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000545s ]
+[2022-05-22T16:34:45+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 27  AND `status` = 1 [ RunTime:0.000265s ]
+[2022-05-22T16:34:45+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 27  AND `status` = 2 [ RunTime:0.000205s ]
+[2022-05-22T16:34:49+08:00][sql] CONNECT:[ UseTime:0.000377s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:34:49+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000744s ]
+[2022-05-22T16:34:49+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000287s ]
+[2022-05-22T16:34:50+08:00][sql] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:34:50+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000761s ]
+[2022-05-22T16:34:50+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000322s ]
+[2022-05-22T16:34:57+08:00][sql] CONNECT:[ UseTime:0.000562s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:34:57+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000928s ]
+[2022-05-22T16:34:57+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000253s ]
+[2022-05-22T16:34:57+08:00][sql] CONNECT:[ UseTime:0.000287s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:34:57+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000688s ]
+[2022-05-22T16:34:57+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000496s ]
+[2022-05-22T16:35:14+08:00][error] [8]未定义数组下标: 0[/www/wwwroot/yunjian.qingyunjian.cn/app/common/Api/ProdList.php:42]
+[2022-05-22T16:35:26+08:00][sql] CONNECT:[ UseTime:0.000375s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:26+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000725s ]
+[2022-05-22T16:35:26+08:00][sql] INSERT INTO `pro_image` SET `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/e6dacde0b9f2dad0ddf43fe656bd1ea2.jpeg' [ RunTime:0.005124s ]
+[2022-05-22T16:35:30+08:00][sql] CONNECT:[ UseTime:0.000393s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:30+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000732s ]
+[2022-05-22T16:35:30+08:00][sql] INSERT INTO `pro_product` SET `color` = 'red' , `title` = '1' , `specif` = '1' , `desc` = '1' , `time` = '1' , `proposal` = '1' , `rewpun` = '1' , `company` = '1' , `createPerson` = '宋军歌' , `image` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/e6dacde0b9f2dad0ddf43fe656bd1ea2.jpeg' [ RunTime:0.004702s ]
+[2022-05-22T16:35:30+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000539s ]
+[2022-05-22T16:35:30+08:00][sql] UPDATE `pro_image`  SET `type` = 'image' , `url` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/e6dacde0b9f2dad0ddf43fe656bd1ea2.jpeg' , `size` = 1455686 , `name` = 'DB9DA1F3-1FFE-493A-BFFD-998F8759A3CF.jpeg' , `status` = 1 , `message` = '' , `id` = 46 , `pid` = 28  WHERE  `id` = 46 [ RunTime:0.003702s ]
+[2022-05-22T16:35:34+08:00][sql] CONNECT:[ UseTime:0.000510s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:34+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000741s ]
+[2022-05-22T16:35:34+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000299s ]
+[2022-05-22T16:35:35+08:00][sql] CONNECT:[ UseTime:0.000345s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:35+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000890s ]
+[2022-05-22T16:35:35+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000243s ]
+[2022-05-22T16:35:35+08:00][sql] CONNECT:[ UseTime:0.000468s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:35+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000753s ]
+[2022-05-22T16:35:35+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000283s ]
+[2022-05-22T16:35:36+08:00][sql] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:36+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000731s ]
+[2022-05-22T16:35:36+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000313s ]
+[2022-05-22T16:35:36+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000649s ]
+[2022-05-22T16:35:36+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 28  AND `status` = 1 [ RunTime:0.000241s ]
+[2022-05-22T16:35:36+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 28  AND `status` = 2 [ RunTime:0.000227s ]
+[2022-05-22T16:35:44+08:00][sql] CONNECT:[ UseTime:0.000382s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:44+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000741s ]
+[2022-05-22T16:35:44+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000356s ]
+[2022-05-22T16:35:45+08:00][sql] CONNECT:[ UseTime:0.000350s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:45+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000775s ]
+[2022-05-22T16:35:45+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000331s ]
+[2022-05-22T16:35:45+08:00][sql] CONNECT:[ UseTime:0.000531s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:45+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000717s ]
+[2022-05-22T16:35:45+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000243s ]
+[2022-05-22T16:35:46+08:00][sql] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:46+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000687s ]
+[2022-05-22T16:35:46+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000383s ]
+[2022-05-22T16:35:47+08:00][sql] CONNECT:[ UseTime:0.000427s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:47+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000728s ]
+[2022-05-22T16:35:47+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000371s ]
+[2022-05-22T16:35:48+08:00][sql] CONNECT:[ UseTime:0.000369s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:48+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000786s ]
+[2022-05-22T16:35:48+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000365s ]
+[2022-05-22T16:35:48+08:00][sql] CONNECT:[ UseTime:0.000529s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:48+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000757s ]
+[2022-05-22T16:35:48+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000571s ]
+[2022-05-22T16:35:48+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000563s ]
+[2022-05-22T16:35:48+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 28  AND `status` = 1 [ RunTime:0.000265s ]
+[2022-05-22T16:35:48+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 28  AND `status` = 2 [ RunTime:0.000242s ]
+[2022-05-22T16:35:53+08:00][sql] CONNECT:[ UseTime:0.000351s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:53+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000727s ]
+[2022-05-22T16:35:53+08:00][sql] UPDATE `pro_product`  SET `id` = 28 , `color` = 'success' , `title` = '1' , `image` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220522/e6dacde0b9f2dad0ddf43fe656bd1ea2.jpeg' , `specif` = '1' , `desc` = '1' , `time` = '1' , `proposal` = '1' , `rewpun` = '1' , `zg_image` = NULL , `company` = '1' , `createPerson` = '宋军歌' , `createTime` = '2022-05-22 16:35:30'  WHERE  `id` = 28 [ RunTime:0.004805s ]
+[2022-05-22T16:35:56+08:00][sql] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:56+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000700s ]
+[2022-05-22T16:35:56+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'success%'  AND `company` LIKE '%' [ RunTime:0.000280s ]
+[2022-05-22T16:35:57+08:00][sql] CONNECT:[ UseTime:0.000342s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:57+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000853s ]
+[2022-05-22T16:35:57+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'yellow%'  AND `company` LIKE '%' [ RunTime:0.000322s ]
+[2022-05-22T16:35:58+08:00][sql] CONNECT:[ UseTime:0.000414s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:58+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000686s ]
+[2022-05-22T16:35:58+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000326s ]
+[2022-05-22T16:35:59+08:00][sql] CONNECT:[ UseTime:0.000484s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:35:59+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000727s ]
+[2022-05-22T16:35:59+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'success%'  AND `company` LIKE '%' [ RunTime:0.000294s ]
+[2022-05-22T16:36:01+08:00][sql] CONNECT:[ UseTime:0.000441s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:36:01+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000770s ]
+[2022-05-22T16:36:01+08:00][sql] SELECT * FROM `pro_product` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000307s ]
+[2022-05-22T16:36:01+08:00][sql] SHOW FULL COLUMNS FROM `pro_image` [ RunTime:0.000516s ]
+[2022-05-22T16:36:01+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 28  AND `status` = 1 [ RunTime:0.000272s ]
+[2022-05-22T16:36:01+08:00][sql] SELECT * FROM `pro_image` WHERE  `pid` = 28  AND `status` = 2 [ RunTime:0.000207s ]
+[2022-05-22T16:36:08+08:00][sql] CONNECT:[ UseTime:0.000434s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:36:08+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000724s ]
+[2022-05-22T16:36:08+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '11%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000327s ]
+[2022-05-22T16:36:12+08:00][sql] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:36:12+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000747s ]
+[2022-05-22T16:36:12+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000283s ]
+[2022-05-22T16:36:13+08:00][sql] CONNECT:[ UseTime:0.000411s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:36:13+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000724s ]
+[2022-05-22T16:36:13+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE 'red%'  AND `company` LIKE '%' [ RunTime:0.000286s ]
+[2022-05-22T16:36:19+08:00][sql] CONNECT:[ UseTime:0.000334s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:36:19+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000687s ]
+[2022-05-22T16:36:19+08:00][sql] SELECT * FROM `pro_swiper` [ RunTime:0.000252s ]
+[2022-05-22T16:36:19+08:00][sql] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-22T16:36:19+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000665s ]
+[2022-05-22T16:36:19+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%'  AND `color` LIKE '%'  AND `company` LIKE '%' [ RunTime:0.000277s ]

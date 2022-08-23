@@ -1,0 +1,874 @@
+[2022-05-20T08:03:53+08:00][sql] CONNECT:[ UseTime:0.000417s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:03:53+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000781s ]
+[2022-05-20T08:03:53+08:00][sql] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000281s ]
+[2022-05-20T08:03:54+08:00][sql] CONNECT:[ UseTime:0.000352s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:03:54+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000712s ]
+[2022-05-20T08:03:54+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000271s ]
+[2022-05-20T08:03:54+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000220s ]
+[2022-05-20T08:03:56+08:00][sql] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:03:56+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000717s ]
+[2022-05-20T08:03:56+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000274s ]
+[2022-05-20T08:03:56+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000190s ]
+[2022-05-20T08:03:58+08:00][sql] CONNECT:[ UseTime:0.000434s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:03:58+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000848s ]
+[2022-05-20T08:03:58+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000277s ]
+[2022-05-20T08:03:58+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000457s ]
+[2022-05-20T08:04:00+08:00][sql] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:04:00+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000725s ]
+[2022-05-20T08:04:00+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000274s ]
+[2022-05-20T08:04:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000191s ]
+[2022-05-20T08:04:01+08:00][sql] CONNECT:[ UseTime:0.000477s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:04:01+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000745s ]
+[2022-05-20T08:04:01+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000314s ]
+[2022-05-20T08:04:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000297s ]
+[2022-05-20T08:07:15+08:00][sql] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:07:15+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000768s ]
+[2022-05-20T08:07:15+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'[/www/wwwroot/yunjian.qingyunjian.cn/vendor/topthink/think-orm/src/db/PDOConnection.php:796]
+[2022-05-20T08:07:20+08:00][error] [0]Class 'app\common\api\ToolList' not found[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Tool.php:24]
+[2022-05-20T08:07:43+08:00][error] [0]Class 'app\common\Admin\ToolList' not found[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Tool.php:24]
+[2022-05-20T08:08:06+08:00][sql] CONNECT:[ UseTime:0.000393s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:08:06+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000676s ]
+[2022-05-20T08:08:06+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000275s ]
+[2022-05-20T08:08:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000192s ]
+[2022-05-20T08:09:01+08:00][sql] CONNECT:[ UseTime:0.000366s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:09:01+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000818s ]
+[2022-05-20T08:09:01+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'[/www/wwwroot/yunjian.qingyunjian.cn/vendor/topthink/think-orm/src/db/PDOConnection.php:796]
+[2022-05-20T08:10:18+08:00][sql] CONNECT:[ UseTime:0.000351s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:10:18+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000695s ]
+[2022-05-20T08:10:18+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'[/www/wwwroot/yunjian.qingyunjian.cn/vendor/topthink/think-orm/src/db/PDOConnection.php:796]
+[2022-05-20T08:10:24+08:00][sql] CONNECT:[ UseTime:0.000435s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:10:24+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000802s ]
+[2022-05-20T08:10:24+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'[/www/wwwroot/yunjian.qingyunjian.cn/vendor/topthink/think-orm/src/db/PDOConnection.php:796]
+[2022-05-20T08:11:14+08:00][sql] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:11:14+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000751s ]
+[2022-05-20T08:11:14+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'[/www/wwwroot/yunjian.qingyunjian.cn/vendor/topthink/think-orm/src/db/PDOConnection.php:796]
+[2022-05-20T08:13:08+08:00][sql] CONNECT:[ UseTime:0.000470s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:13:08+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000708s ]
+[2022-05-20T08:13:08+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000398s ]
+[2022-05-20T08:13:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000226s ]
+[2022-05-20T08:13:19+08:00][sql] CONNECT:[ UseTime:0.000568s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:13:19+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000735s ]
+[2022-05-20T08:13:19+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000286s ]
+[2022-05-20T08:13:19+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000182s ]
+[2022-05-20T08:14:56+08:00][sql] CONNECT:[ UseTime:0.000422s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:14:56+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000673s ]
+[2022-05-20T08:14:56+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000237s ]
+[2022-05-20T08:14:56+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000209s ]
+[2022-05-20T08:15:42+08:00][sql] CONNECT:[ UseTime:0.000481s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:15:42+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000678s ]
+[2022-05-20T08:15:42+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000233s ]
+[2022-05-20T08:15:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000203s ]
+[2022-05-20T08:21:27+08:00][sql] CONNECT:[ UseTime:0.000327s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:21:27+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000694s ]
+[2022-05-20T08:21:27+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000212s ]
+[2022-05-20T08:21:27+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000171s ]
+[2022-05-20T08:25:06+08:00][sql] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:25:06+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000669s ]
+[2022-05-20T08:25:06+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000278s ]
+[2022-05-20T08:25:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000161s ]
+[2022-05-20T08:25:10+08:00][sql] CONNECT:[ UseTime:0.000440s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:25:10+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000743s ]
+[2022-05-20T08:25:10+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000449s ]
+[2022-05-20T08:25:10+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000184s ]
+[2022-05-20T08:25:24+08:00][sql] CONNECT:[ UseTime:0.000430s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:25:24+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000746s ]
+[2022-05-20T08:25:24+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000233s ]
+[2022-05-20T08:25:24+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000163s ]
+[2022-05-20T08:27:16+08:00][sql] CONNECT:[ UseTime:0.000377s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:27:16+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000727s ]
+[2022-05-20T08:27:16+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000356s ]
+[2022-05-20T08:27:16+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000206s ]
+[2022-05-20T08:27:56+08:00][sql] CONNECT:[ UseTime:0.000498s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:27:56+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000697s ]
+[2022-05-20T08:27:56+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000242s ]
+[2022-05-20T08:27:56+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000183s ]
+[2022-05-20T08:28:57+08:00][sql] CONNECT:[ UseTime:0.000695s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:28:57+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000672s ]
+[2022-05-20T08:28:57+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000226s ]
+[2022-05-20T08:28:57+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000167s ]
+[2022-05-20T08:30:42+08:00][sql] CONNECT:[ UseTime:0.000501s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:30:42+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000706s ]
+[2022-05-20T08:30:42+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000367s ]
+[2022-05-20T08:30:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000234s ]
+[2022-05-20T08:30:49+08:00][sql] CONNECT:[ UseTime:0.000343s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:30:49+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000677s ]
+[2022-05-20T08:30:49+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000263s ]
+[2022-05-20T08:30:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000191s ]
+[2022-05-20T08:31:21+08:00][sql] CONNECT:[ UseTime:0.000341s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:31:21+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000789s ]
+[2022-05-20T08:31:21+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000272s ]
+[2022-05-20T08:31:21+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000206s ]
+[2022-05-20T08:38:09+08:00][sql] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:38:09+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000704s ]
+[2022-05-20T08:38:09+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000281s ]
+[2022-05-20T08:38:09+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000247s ]
+[2022-05-20T08:39:10+08:00][sql] CONNECT:[ UseTime:0.000452s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:39:10+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000783s ]
+[2022-05-20T08:39:10+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000236s ]
+[2022-05-20T08:39:10+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000182s ]
+[2022-05-20T08:40:03+08:00][sql] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:40:03+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000762s ]
+[2022-05-20T08:40:03+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000399s ]
+[2022-05-20T08:40:03+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000178s ]
+[2022-05-20T08:41:36+08:00][sql] CONNECT:[ UseTime:0.000469s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:41:36+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000702s ]
+[2022-05-20T08:41:36+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000265s ]
+[2022-05-20T08:41:36+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000180s ]
+[2022-05-20T08:42:55+08:00][sql] CONNECT:[ UseTime:0.000365s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:42:55+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000696s ]
+[2022-05-20T08:42:55+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000246s ]
+[2022-05-20T08:42:55+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000160s ]
+[2022-05-20T08:43:10+08:00][sql] CONNECT:[ UseTime:0.000504s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:43:10+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000698s ]
+[2022-05-20T08:43:10+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000250s ]
+[2022-05-20T08:43:10+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000176s ]
+[2022-05-20T08:46:45+08:00][sql] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:46:45+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000666s ]
+[2022-05-20T08:46:45+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000237s ]
+[2022-05-20T08:46:45+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000211s ]
+[2022-05-20T08:58:28+08:00][sql] CONNECT:[ UseTime:0.000590s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:58:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000668s ]
+[2022-05-20T08:58:28+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000230s ]
+[2022-05-20T08:58:28+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000192s ]
+[2022-05-20T08:59:56+08:00][sql] CONNECT:[ UseTime:0.000375s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T08:59:56+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000842s ]
+[2022-05-20T08:59:56+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000394s ]
+[2022-05-20T08:59:56+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000165s ]
+[2022-05-20T09:03:37+08:00][sql] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:03:37+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000677s ]
+[2022-05-20T09:03:37+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000264s ]
+[2022-05-20T09:03:37+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000247s ]
+[2022-05-20T09:04:21+08:00][sql] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:04:21+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000689s ]
+[2022-05-20T09:04:21+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000378s ]
+[2022-05-20T09:04:21+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000161s ]
+[2022-05-20T09:04:26+08:00][sql] CONNECT:[ UseTime:0.000608s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:04:26+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000747s ]
+[2022-05-20T09:04:26+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000234s ]
+[2022-05-20T09:04:26+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000197s ]
+[2022-05-20T09:05:01+08:00][sql] CONNECT:[ UseTime:0.000476s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:05:01+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000806s ]
+[2022-05-20T09:05:01+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000473s ]
+[2022-05-20T09:05:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000166s ]
+[2022-05-20T09:07:55+08:00][sql] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:07:55+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000649s ]
+[2022-05-20T09:07:55+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000238s ]
+[2022-05-20T09:07:55+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000166s ]
+[2022-05-20T09:07:57+08:00][sql] CONNECT:[ UseTime:0.000417s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:07:57+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000678s ]
+[2022-05-20T09:07:57+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000276s ]
+[2022-05-20T09:07:57+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000162s ]
+[2022-05-20T09:08:44+08:00][sql] CONNECT:[ UseTime:0.000401s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:08:44+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000728s ]
+[2022-05-20T09:08:44+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000209s ]
+[2022-05-20T09:08:44+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000186s ]
+[2022-05-20T09:09:22+08:00][sql] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:09:22+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000693s ]
+[2022-05-20T09:09:22+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000278s ]
+[2022-05-20T09:09:22+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000258s ]
+[2022-05-20T09:13:56+08:00][sql] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:13:56+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000664s ]
+[2022-05-20T09:13:56+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000315s ]
+[2022-05-20T09:13:56+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000219s ]
+[2022-05-20T09:13:59+08:00][sql] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:13:59+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000761s ]
+[2022-05-20T09:13:59+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000233s ]
+[2022-05-20T09:13:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000179s ]
+[2022-05-20T09:14:03+08:00][error] [2]unlink(): http does not allow unlinking[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Swiper.php:61]
+[2022-05-20T09:14:16+08:00][sql] CONNECT:[ UseTime:0.000468s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:14:16+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000713s ]
+[2022-05-20T09:14:16+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000291s ]
+[2022-05-20T09:14:16+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000373s ]
+[2022-05-20T09:17:14+08:00][sql] CONNECT:[ UseTime:0.000394s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:17:14+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000729s ]
+[2022-05-20T09:17:14+08:00][sql] UPDATE `pro_swiper`  SET `id` = 3 , `title` = '测试图3' , `desc` = '测试描述' , `image` = 'https://image.meiye.art/pic_Nteh1J--ua9FZXmt28xTB?imageMogr2/thumbnail/450x/interlace/1' , `createTime` = '2022-05-18 16:27:18'  WHERE  `id` = 3 [ RunTime:0.004294s ]
+[2022-05-20T09:17:39+08:00][error] [2]unlink(): http does not allow unlinking[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Swiper.php:61]
+[2022-05-20T09:17:47+08:00][sql] CONNECT:[ UseTime:0.000397s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:17:47+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000674s ]
+[2022-05-20T09:17:47+08:00][sql] UPDATE `pro_swiper`  SET `id` = 3 , `title` = '测试图3' , `desc` = '测试描述' , `image` = 'https://image.meiye.art/pic_Nteh1J--ua9FZXmt28xTB?imageMogr2/thumbnail/450x/interlace/1' , `createTime` = '2022-05-18 16:27:18'  WHERE  `id` = 3 [ RunTime:0.004635s ]
+[2022-05-20T09:18:42+08:00][sql] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:18:42+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000678s ]
+[2022-05-20T09:18:42+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000232s ]
+[2022-05-20T09:18:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000172s ]
+[2022-05-20T09:19:30+08:00][error] [2]unlink(): http does not allow unlinking[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Swiper.php:61]
+[2022-05-20T09:20:34+08:00][sql] CONNECT:[ UseTime:0.000367s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:20:34+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000679s ]
+[2022-05-20T09:20:34+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000340s ]
+[2022-05-20T09:20:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000395s ]
+[2022-05-20T09:20:36+08:00][sql] CONNECT:[ UseTime:0.000320s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:20:36+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000694s ]
+[2022-05-20T09:20:36+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000250s ]
+[2022-05-20T09:20:36+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000183s ]
+[2022-05-20T09:20:45+08:00][error] [2]unlink(): http does not allow unlinking[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Swiper.php:61]
+[2022-05-20T09:22:32+08:00][sql] CONNECT:[ UseTime:0.000406s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:22:32+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000713s ]
+[2022-05-20T09:22:32+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000223s ]
+[2022-05-20T09:22:32+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000163s ]
+[2022-05-20T09:22:36+08:00][sql] CONNECT:[ UseTime:0.000376s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:22:36+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000672s ]
+[2022-05-20T09:22:36+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000286s ]
+[2022-05-20T09:22:36+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000179s ]
+[2022-05-20T09:24:00+08:00][sql] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:24:00+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000672s ]
+[2022-05-20T09:24:00+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000248s ]
+[2022-05-20T09:24:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000162s ]
+[2022-05-20T09:24:50+08:00][sql] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:24:50+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000720s ]
+[2022-05-20T09:24:50+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000269s ]
+[2022-05-20T09:24:50+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000268s ]
+[2022-05-20T09:25:14+08:00][sql] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:25:14+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000678s ]
+[2022-05-20T09:25:14+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000368s ]
+[2022-05-20T09:25:14+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000185s ]
+[2022-05-20T09:26:21+08:00][sql] CONNECT:[ UseTime:0.000424s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:26:21+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000685s ]
+[2022-05-20T09:26:21+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000216s ]
+[2022-05-20T09:26:21+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000186s ]
+[2022-05-20T09:28:33+08:00][sql] CONNECT:[ UseTime:0.000416s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:28:33+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000697s ]
+[2022-05-20T09:28:33+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000289s ]
+[2022-05-20T09:28:33+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000247s ]
+[2022-05-20T09:28:39+08:00][sql] CONNECT:[ UseTime:0.000334s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:28:39+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000657s ]
+[2022-05-20T09:28:39+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000257s ]
+[2022-05-20T09:28:39+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000190s ]
+[2022-05-20T09:30:42+08:00][sql] CONNECT:[ UseTime:0.000342s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:30:42+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000701s ]
+[2022-05-20T09:30:42+08:00][sql] UPDATE `pro_swiper`  SET `id` = 1 , `title` = '测试' , `desc` = '测试'  WHERE  `id` = 1 [ RunTime:0.004245s ]
+[2022-05-20T09:30:47+08:00][sql] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:30:47+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000675s ]
+[2022-05-20T09:30:47+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000298s ]
+[2022-05-20T09:30:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000220s ]
+[2022-05-20T09:31:26+08:00][sql] CONNECT:[ UseTime:0.000373s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:31:26+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000678s ]
+[2022-05-20T09:31:26+08:00][sql] UPDATE `pro_swiper`  SET `id` = 1 , `title` = '测试图1' , `desc` = '测试图2' , `image` = 'https://image.meiye.art/pic_eVVCFEc2WaY0SZymCaj8v?imageMogr2/thumbnail/450x/interlace/1' , `createTime` = '2022-05-18 16:26:00'  WHERE  `id` = 1 [ RunTime:0.004319s ]
+[2022-05-20T09:31:29+08:00][sql] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:31:29+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000668s ]
+[2022-05-20T09:31:29+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000287s ]
+[2022-05-20T09:31:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000191s ]
+[2022-05-20T09:32:58+08:00][sql] CONNECT:[ UseTime:0.000436s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:32:58+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000725s ]
+[2022-05-20T09:32:58+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000305s ]
+[2022-05-20T09:32:58+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000182s ]
+[2022-05-20T09:33:04+08:00][error] [2]unlink(): http does not allow unlinking[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Swiper.php:61]
+[2022-05-20T09:33:13+08:00][sql] CONNECT:[ UseTime:0.000401s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:33:13+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000732s ]
+[2022-05-20T09:33:13+08:00][sql] UPDATE `pro_swiper`  SET `id` = 1 , `title` = '测试图1' , `desc` = '测试图2' , `image` = 'blob:http://192.168.3.138:8080/20def504-fa0d-42e7-8ef6-ab9614a7d84c' , `createTime` = '2022-05-18 16:26:00'  WHERE  `id` = 1 [ RunTime:0.006362s ]
+[2022-05-20T09:33:42+08:00][sql] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:33:42+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000671s ]
+[2022-05-20T09:33:42+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000238s ]
+[2022-05-20T09:33:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000184s ]
+[2022-05-20T09:33:54+08:00][error] [2]unlink(blob:http://192.168.3.138:8080/20def504-fa0d-42e7-8ef6-ab9614a7d84c): No such file or directory[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Swiper.php:61]
+[2022-05-20T09:34:39+08:00][sql] CONNECT:[ UseTime:0.000433s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:34:39+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000693s ]
+[2022-05-20T09:34:39+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000227s ]
+[2022-05-20T09:34:39+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000180s ]
+[2022-05-20T09:34:49+08:00][sql] CONNECT:[ UseTime:0.000420s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:34:49+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000689s ]
+[2022-05-20T09:34:49+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000228s ]
+[2022-05-20T09:34:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000178s ]
+[2022-05-20T09:34:52+08:00][error] [2]unlink(blob:http://192.168.3.138:8080/20def504-fa0d-42e7-8ef6-ab9614a7d84c): No such file or directory[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Swiper.php:61]
+[2022-05-20T09:35:02+08:00][sql] CONNECT:[ UseTime:0.000400s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:35:02+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000730s ]
+[2022-05-20T09:35:02+08:00][sql] UPDATE `pro_swiper`  SET `id` = 1 , `title` = '测试图1' , `desc` = '测试图2' , `image` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220520/249730427299239fe3365d8fe91af092.png' , `createTime` = '2022-05-18 16:26:00'  WHERE  `id` = 1 [ RunTime:0.005422s ]
+[2022-05-20T09:35:06+08:00][error] [2]unlink(blob:http://192.168.3.138:8080/b7c3a4ef-aea3-4d2d-9a52-bb4af984c983): No such file or directory[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Swiper.php:61]
+[2022-05-20T09:35:33+08:00][sql] CONNECT:[ UseTime:0.000339s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:35:33+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000666s ]
+[2022-05-20T09:35:33+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000260s ]
+[2022-05-20T09:35:33+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000209s ]
+[2022-05-20T09:36:14+08:00][sql] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:36:14+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000654s ]
+[2022-05-20T09:36:14+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000213s ]
+[2022-05-20T09:36:14+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000179s ]
+[2022-05-20T09:36:19+08:00][sql] CONNECT:[ UseTime:0.000474s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:36:19+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000655s ]
+[2022-05-20T09:36:19+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000210s ]
+[2022-05-20T09:36:19+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000163s ]
+[2022-05-20T09:36:29+08:00][error] [8]未定义数组索引: url[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Swiper.php:60]
+[2022-05-20T09:36:59+08:00][sql] CONNECT:[ UseTime:0.000318s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:36:59+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000679s ]
+[2022-05-20T09:36:59+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000207s ]
+[2022-05-20T09:36:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000195s ]
+[2022-05-20T09:37:04+08:00][error] [2]unlink(): http does not allow unlinking[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Swiper.php:61]
+[2022-05-20T09:39:02+08:00][sql] CONNECT:[ UseTime:0.000462s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:39:02+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000756s ]
+[2022-05-20T09:39:02+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000360s ]
+[2022-05-20T09:39:02+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000168s ]
+[2022-05-20T09:39:07+08:00][sql] CONNECT:[ UseTime:0.000392s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:39:07+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.001033s ]
+[2022-05-20T09:39:07+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000260s ]
+[2022-05-20T09:39:07+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000211s ]
+[2022-05-20T09:39:20+08:00][sql] CONNECT:[ UseTime:0.000676s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:39:20+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000680s ]
+[2022-05-20T09:39:20+08:00][sql] UPDATE `pro_swiper`  SET `id` = 1 , `title` = '测试图1' , `desc` = '测试图2' , `image` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220520/13a4a3ed46d1b971b944295554d71780.png' , `createTime` = '2022-05-18 16:26:00'  WHERE  `id` = 1 [ RunTime:0.004951s ]
+[2022-05-20T09:42:12+08:00][sql] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:42:12+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000778s ]
+[2022-05-20T09:42:12+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000233s ]
+[2022-05-20T09:42:12+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000190s ]
+[2022-05-20T09:42:21+08:00][sql] CONNECT:[ UseTime:0.000564s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:42:21+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000743s ]
+[2022-05-20T09:42:21+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000408s ]
+[2022-05-20T09:42:21+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000263s ]
+[2022-05-20T09:42:25+08:00][sql] CONNECT:[ UseTime:0.000393s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:42:25+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.002842s ]
+[2022-05-20T09:42:25+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000212s ]
+[2022-05-20T09:42:25+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000179s ]
+[2022-05-20T09:42:38+08:00][sql] CONNECT:[ UseTime:0.000441s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:42:38+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000677s ]
+[2022-05-20T09:42:38+08:00][sql] INSERT INTO `pro_swiper` SET `title` = '测试4' , `desc` = '测试4' , `image` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220520/049bc2dff1b0b8435fe32f456cfeba09.png' [ RunTime:0.004492s ]
+[2022-05-20T09:42:42+08:00][sql] CONNECT:[ UseTime:0.000411s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:42:42+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000657s ]
+[2022-05-20T09:42:42+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000219s ]
+[2022-05-20T09:42:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000162s ]
+[2022-05-20T09:44:13+08:00][sql] CONNECT:[ UseTime:0.000510s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:44:13+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000719s ]
+[2022-05-20T09:44:13+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000527s ]
+[2022-05-20T09:44:13+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000166s ]
+[2022-05-20T09:46:32+08:00][sql] CONNECT:[ UseTime:0.000402s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:46:32+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000655s ]
+[2022-05-20T09:46:32+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000217s ]
+[2022-05-20T09:46:32+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000162s ]
+[2022-05-20T09:46:54+08:00][sql] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:46:54+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000684s ]
+[2022-05-20T09:46:54+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000310s ]
+[2022-05-20T09:46:54+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000251s ]
+[2022-05-20T09:46:58+08:00][sql] CONNECT:[ UseTime:0.000417s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:46:58+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000881s ]
+[2022-05-20T09:46:58+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000237s ]
+[2022-05-20T09:46:58+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000161s ]
+[2022-05-20T09:47:00+08:00][sql] CONNECT:[ UseTime:0.000377s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:47:00+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000771s ]
+[2022-05-20T09:47:00+08:00][sql] DELETE FROM `pro_swiper` WHERE  `id` IS NULL [ RunTime:0.000175s ]
+[2022-05-20T09:47:03+08:00][sql] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:47:03+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000659s ]
+[2022-05-20T09:47:03+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000284s ]
+[2022-05-20T09:47:03+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000161s ]
+[2022-05-20T09:47:11+08:00][sql] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:47:11+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000706s ]
+[2022-05-20T09:47:11+08:00][sql] DELETE FROM `pro_swiper` WHERE  `id` IS NULL [ RunTime:0.000265s ]
+[2022-05-20T09:47:34+08:00][sql] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:47:34+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000769s ]
+[2022-05-20T09:47:34+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000367s ]
+[2022-05-20T09:47:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000181s ]
+[2022-05-20T09:47:37+08:00][sql] CONNECT:[ UseTime:0.000406s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:47:37+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000691s ]
+[2022-05-20T09:47:37+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000218s ]
+[2022-05-20T09:47:37+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000181s ]
+[2022-05-20T09:47:42+08:00][sql] CONNECT:[ UseTime:0.000419s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:47:42+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000774s ]
+[2022-05-20T09:47:42+08:00][sql] DELETE FROM `pro_swiper` WHERE  `id` = 4 [ RunTime:0.004200s ]
+[2022-05-20T09:47:49+08:00][sql] CONNECT:[ UseTime:0.000353s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:47:49+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.002757s ]
+[2022-05-20T09:47:49+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000225s ]
+[2022-05-20T09:47:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000182s ]
+[2022-05-20T09:48:14+08:00][sql] CONNECT:[ UseTime:0.000335s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:48:14+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000674s ]
+[2022-05-20T09:48:14+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000368s ]
+[2022-05-20T09:48:14+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000197s ]
+[2022-05-20T09:48:38+08:00][sql] CONNECT:[ UseTime:0.000480s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:48:38+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000685s ]
+[2022-05-20T09:48:38+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000327s ]
+[2022-05-20T09:48:38+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000161s ]
+[2022-05-20T09:48:41+08:00][sql] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:48:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000727s ]
+[2022-05-20T09:48:41+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000304s ]
+[2022-05-20T09:48:41+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000163s ]
+[2022-05-20T09:48:43+08:00][sql] CONNECT:[ UseTime:0.000520s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:48:43+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000914s ]
+[2022-05-20T09:48:43+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000399s ]
+[2022-05-20T09:48:43+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000165s ]
+[2022-05-20T09:48:51+08:00][sql] CONNECT:[ UseTime:0.000435s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:48:51+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000702s ]
+[2022-05-20T09:48:51+08:00][sql] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000375s ]
+[2022-05-20T09:48:51+08:00][sql] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:48:51+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000689s ]
+[2022-05-20T09:48:51+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000280s ]
+[2022-05-20T09:48:51+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000196s ]
+[2022-05-20T09:48:53+08:00][sql] CONNECT:[ UseTime:0.000432s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:48:53+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000718s ]
+[2022-05-20T09:48:53+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000287s ]
+[2022-05-20T09:48:53+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000185s ]
+[2022-05-20T09:48:54+08:00][sql] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:48:54+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000698s ]
+[2022-05-20T09:48:54+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000285s ]
+[2022-05-20T09:48:54+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000204s ]
+[2022-05-20T09:48:59+08:00][sql] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:48:59+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000681s ]
+[2022-05-20T09:48:59+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000269s ]
+[2022-05-20T09:48:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000225s ]
+[2022-05-20T09:49:03+08:00][sql] CONNECT:[ UseTime:0.000341s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:49:03+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000656s ]
+[2022-05-20T09:49:03+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000270s ]
+[2022-05-20T09:49:03+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000180s ]
+[2022-05-20T09:49:09+08:00][sql] CONNECT:[ UseTime:0.000364s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:49:09+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000697s ]
+[2022-05-20T09:49:09+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000280s ]
+[2022-05-20T09:49:09+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000220s ]
+[2022-05-20T09:49:45+08:00][sql] CONNECT:[ UseTime:0.000348s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:49:45+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000683s ]
+[2022-05-20T09:49:45+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000300s ]
+[2022-05-20T09:49:45+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000243s ]
+[2022-05-20T09:49:54+08:00][sql] CONNECT:[ UseTime:0.000363s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:49:54+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000999s ]
+[2022-05-20T09:49:54+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000253s ]
+[2022-05-20T09:49:54+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000204s ]
+[2022-05-20T09:49:56+08:00][sql] CONNECT:[ UseTime:0.000414s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:49:56+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000758s ]
+[2022-05-20T09:49:56+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000303s ]
+[2022-05-20T09:49:56+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000279s ]
+[2022-05-20T09:50:01+08:00][sql] CONNECT:[ UseTime:0.000617s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:50:01+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000824s ]
+[2022-05-20T09:50:01+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000454s ]
+[2022-05-20T09:50:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000182s ]
+[2022-05-20T09:50:08+08:00][sql] CONNECT:[ UseTime:0.000426s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:50:08+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000751s ]
+[2022-05-20T09:50:08+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000306s ]
+[2022-05-20T09:50:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000186s ]
+[2022-05-20T09:50:41+08:00][sql] CONNECT:[ UseTime:0.000434s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:50:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000680s ]
+[2022-05-20T09:50:41+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000209s ]
+[2022-05-20T09:50:41+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000177s ]
+[2022-05-20T09:50:46+08:00][sql] CONNECT:[ UseTime:0.000537s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:50:46+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000700s ]
+[2022-05-20T09:50:46+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000295s ]
+[2022-05-20T09:50:46+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000201s ]
+[2022-05-20T09:50:47+08:00][sql] CONNECT:[ UseTime:0.000452s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:50:47+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000680s ]
+[2022-05-20T09:50:47+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000269s ]
+[2022-05-20T09:50:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000196s ]
+[2022-05-20T09:50:48+08:00][sql] CONNECT:[ UseTime:0.000393s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:50:48+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000686s ]
+[2022-05-20T09:50:48+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000398s ]
+[2022-05-20T09:50:48+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000192s ]
+[2022-05-20T09:52:14+08:00][sql] CONNECT:[ UseTime:0.000366s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:52:14+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000704s ]
+[2022-05-20T09:52:14+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000329s ]
+[2022-05-20T09:52:14+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000222s ]
+[2022-05-20T09:52:21+08:00][sql] CONNECT:[ UseTime:0.000497s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:52:21+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000710s ]
+[2022-05-20T09:52:21+08:00][sql] UPDATE `pro_user`  SET `id` = 4 , `username` = '测试1' , `mobile` = '测试1122' , `password` = '测试1' , `company` = '测hi111' , `createTime` = '2022-05-20 09:52:11'  WHERE  `id` = 4 [ RunTime:0.005184s ]
+[2022-05-20T09:52:22+08:00][sql] CONNECT:[ UseTime:0.000430s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:52:22+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000666s ]
+[2022-05-20T09:52:22+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000268s ]
+[2022-05-20T09:52:22+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000194s ]
+[2022-05-20T09:52:25+08:00][sql] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:52:25+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000663s ]
+[2022-05-20T09:52:25+08:00][sql] DELETE FROM `pro_swiper` WHERE  `id` = 4 [ RunTime:0.000276s ]
+[2022-05-20T09:52:28+08:00][sql] CONNECT:[ UseTime:0.000334s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:52:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000658s ]
+[2022-05-20T09:52:28+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000340s ]
+[2022-05-20T09:52:28+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000191s ]
+[2022-05-20T09:52:31+08:00][sql] CONNECT:[ UseTime:0.000338s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:52:31+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000677s ]
+[2022-05-20T09:52:31+08:00][sql] DELETE FROM `pro_swiper` WHERE  `id` = 4 [ RunTime:0.000348s ]
+[2022-05-20T09:52:36+08:00][sql] CONNECT:[ UseTime:0.000399s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:52:36+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000696s ]
+[2022-05-20T09:52:36+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000298s ]
+[2022-05-20T09:52:36+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000194s ]
+[2022-05-20T09:52:43+08:00][sql] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:52:43+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000690s ]
+[2022-05-20T09:52:43+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000239s ]
+[2022-05-20T09:52:43+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000183s ]
+[2022-05-20T09:52:45+08:00][sql] CONNECT:[ UseTime:0.000500s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:52:45+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000727s ]
+[2022-05-20T09:52:45+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000272s ]
+[2022-05-20T09:52:45+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000190s ]
+[2022-05-20T09:52:46+08:00][sql] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:52:46+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000728s ]
+[2022-05-20T09:52:46+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000270s ]
+[2022-05-20T09:52:46+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000226s ]
+[2022-05-20T09:52:47+08:00][sql] CONNECT:[ UseTime:0.000324s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:52:47+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000724s ]
+[2022-05-20T09:52:47+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000262s ]
+[2022-05-20T09:52:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000202s ]
+[2022-05-20T09:53:22+08:00][sql] CONNECT:[ UseTime:0.000408s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:53:22+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000660s ]
+[2022-05-20T09:53:22+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000335s ]
+[2022-05-20T09:53:22+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000206s ]
+[2022-05-20T09:53:25+08:00][sql] CONNECT:[ UseTime:0.000357s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:53:25+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000738s ]
+[2022-05-20T09:53:25+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000246s ]
+[2022-05-20T09:53:25+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000210s ]
+[2022-05-20T09:53:28+08:00][sql] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:53:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000676s ]
+[2022-05-20T09:53:28+08:00][sql] DELETE FROM `pro_user` WHERE  `id` = 4 [ RunTime:0.005881s ]
+[2022-05-20T09:53:31+08:00][sql] CONNECT:[ UseTime:0.000367s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:53:31+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000695s ]
+[2022-05-20T09:53:31+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000313s ]
+[2022-05-20T09:53:31+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000207s ]
+[2022-05-20T09:58:03+08:00][sql] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:58:03+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000743s ]
+[2022-05-20T09:58:03+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000229s ]
+[2022-05-20T09:58:03+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000165s ]
+[2022-05-20T09:58:36+08:00][sql] CONNECT:[ UseTime:0.000517s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T09:58:36+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000682s ]
+[2022-05-20T09:58:36+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000282s ]
+[2022-05-20T09:58:36+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000162s ]
+[2022-05-20T10:20:53+08:00][sql] CONNECT:[ UseTime:0.000432s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:20:53+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000763s ]
+[2022-05-20T10:20:53+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000230s ]
+[2022-05-20T10:20:53+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000162s ]
+[2022-05-20T10:25:47+08:00][sql] CONNECT:[ UseTime:0.000414s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:25:47+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000689s ]
+[2022-05-20T10:25:47+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000259s ]
+[2022-05-20T10:25:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000260s ]
+[2022-05-20T10:27:20+08:00][sql] CONNECT:[ UseTime:0.000413s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:27:20+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.002488s ]
+[2022-05-20T10:27:20+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000407s ]
+[2022-05-20T10:27:20+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000165s ]
+[2022-05-20T10:27:43+08:00][error] [0]Class 'app\common\api\ProdList' not found[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Product.php:26]
+[2022-05-20T10:28:14+08:00][error] [0]Class 'app\common\api\ProdList' not found[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Product.php:26]
+[2022-05-20T10:31:44+08:00][error] [0]Class 'app\common\Admin\ProdList' not found[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Product.php:26]
+[2022-05-20T10:32:06+08:00][sql] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:32:06+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000752s ]
+[2022-05-20T10:32:06+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000283s ]
+[2022-05-20T10:32:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000195s ]
+[2022-05-20T10:32:12+08:00][sql] CONNECT:[ UseTime:0.000432s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:32:12+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000732s ]
+[2022-05-20T10:32:12+08:00][sql] DELETE FROM `pro_product` WHERE  `id` = 3 [ RunTime:0.004539s ]
+[2022-05-20T10:32:14+08:00][sql] CONNECT:[ UseTime:0.000406s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:32:14+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000737s ]
+[2022-05-20T10:32:14+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000274s ]
+[2022-05-20T10:32:14+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000235s ]
+[2022-05-20T10:33:04+08:00][sql] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:33:04+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000691s ]
+[2022-05-20T10:33:04+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000267s ]
+[2022-05-20T10:33:04+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000207s ]
+[2022-05-20T10:33:29+08:00][sql] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:33:29+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000765s ]
+[2022-05-20T10:33:29+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000272s ]
+[2022-05-20T10:33:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000203s ]
+[2022-05-20T10:33:31+08:00][sql] CONNECT:[ UseTime:0.000333s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:33:31+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000839s ]
+[2022-05-20T10:33:31+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000301s ]
+[2022-05-20T10:33:31+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000190s ]
+[2022-05-20T10:34:13+08:00][sql] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:34:13+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.002556s ]
+[2022-05-20T10:34:13+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000370s ]
+[2022-05-20T10:34:13+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000189s ]
+[2022-05-20T10:34:16+08:00][sql] CONNECT:[ UseTime:0.000392s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:34:16+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000718s ]
+[2022-05-20T10:34:16+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000278s ]
+[2022-05-20T10:34:16+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000226s ]
+[2022-05-20T10:34:20+08:00][sql] CONNECT:[ UseTime:0.000357s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:34:20+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000707s ]
+[2022-05-20T10:34:20+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000270s ]
+[2022-05-20T10:34:20+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000210s ]
+[2022-05-20T10:34:36+08:00][sql] CONNECT:[ UseTime:0.000447s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:34:36+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000725s ]
+[2022-05-20T10:34:36+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000333s ]
+[2022-05-20T10:34:36+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000207s ]
+[2022-05-20T10:35:40+08:00][sql] CONNECT:[ UseTime:0.000476s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:35:40+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000754s ]
+[2022-05-20T10:35:40+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000223s ]
+[2022-05-20T10:35:40+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000180s ]
+[2022-05-20T10:35:41+08:00][sql] CONNECT:[ UseTime:0.000471s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:35:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000666s ]
+[2022-05-20T10:35:41+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000408s ]
+[2022-05-20T10:35:41+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000216s ]
+[2022-05-20T10:35:42+08:00][sql] CONNECT:[ UseTime:0.000361s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:35:42+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000730s ]
+[2022-05-20T10:35:42+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000355s ]
+[2022-05-20T10:35:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000232s ]
+[2022-05-20T10:35:42+08:00][sql] CONNECT:[ UseTime:0.000394s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:35:42+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000692s ]
+[2022-05-20T10:35:42+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000277s ]
+[2022-05-20T10:35:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000253s ]
+[2022-05-20T10:36:22+08:00][sql] CONNECT:[ UseTime:0.000382s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:36:22+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000695s ]
+[2022-05-20T10:36:22+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000265s ]
+[2022-05-20T10:36:22+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000206s ]
+[2022-05-20T10:36:24+08:00][sql] CONNECT:[ UseTime:0.000358s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:36:24+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000643s ]
+[2022-05-20T10:36:24+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000229s ]
+[2022-05-20T10:36:24+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000245s ]
+[2022-05-20T10:36:24+08:00][sql] CONNECT:[ UseTime:0.000406s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:36:24+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000684s ]
+[2022-05-20T10:36:24+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000362s ]
+[2022-05-20T10:36:24+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000204s ]
+[2022-05-20T10:36:25+08:00][sql] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:36:25+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000827s ]
+[2022-05-20T10:36:25+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000307s ]
+[2022-05-20T10:36:25+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000191s ]
+[2022-05-20T10:36:25+08:00][sql] CONNECT:[ UseTime:0.000599s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:36:25+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000715s ]
+[2022-05-20T10:36:25+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000317s ]
+[2022-05-20T10:36:25+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000204s ]
+[2022-05-20T10:36:26+08:00][sql] CONNECT:[ UseTime:0.000406s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:36:26+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000731s ]
+[2022-05-20T10:36:26+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000222s ]
+[2022-05-20T10:36:26+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000177s ]
+[2022-05-20T10:36:27+08:00][sql] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:36:27+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000676s ]
+[2022-05-20T10:36:27+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000248s ]
+[2022-05-20T10:36:27+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000191s ]
+[2022-05-20T10:36:28+08:00][sql] CONNECT:[ UseTime:0.000429s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:36:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000746s ]
+[2022-05-20T10:36:28+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000405s ]
+[2022-05-20T10:36:28+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000195s ]
+[2022-05-20T10:36:29+08:00][sql] CONNECT:[ UseTime:0.000510s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:36:29+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000721s ]
+[2022-05-20T10:36:29+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000227s ]
+[2022-05-20T10:36:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000187s ]
+[2022-05-20T10:36:29+08:00][sql] CONNECT:[ UseTime:0.000376s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:36:29+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000686s ]
+[2022-05-20T10:36:29+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000279s ]
+[2022-05-20T10:36:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000193s ]
+[2022-05-20T10:36:30+08:00][sql] CONNECT:[ UseTime:0.000399s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:36:30+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000715s ]
+[2022-05-20T10:36:30+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000302s ]
+[2022-05-20T10:36:30+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000195s ]
+[2022-05-20T10:36:31+08:00][sql] CONNECT:[ UseTime:0.000385s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:36:31+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000747s ]
+[2022-05-20T10:36:31+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000298s ]
+[2022-05-20T10:36:31+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000314s ]
+[2022-05-20T10:36:32+08:00][sql] CONNECT:[ UseTime:0.000410s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:36:32+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000723s ]
+[2022-05-20T10:36:32+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000282s ]
+[2022-05-20T10:36:32+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000213s ]
+[2022-05-20T10:37:16+08:00][sql] CONNECT:[ UseTime:0.000314s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:37:16+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000712s ]
+[2022-05-20T10:37:16+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000543s ]
+[2022-05-20T10:37:16+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000199s ]
+[2022-05-20T10:37:20+08:00][sql] CONNECT:[ UseTime:0.000412s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:37:20+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000700s ]
+[2022-05-20T10:37:20+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000276s ]
+[2022-05-20T10:37:20+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000262s ]
+[2022-05-20T10:37:52+08:00][sql] CONNECT:[ UseTime:0.000474s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:37:52+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000704s ]
+[2022-05-20T10:37:52+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000256s ]
+[2022-05-20T10:37:52+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000192s ]
+[2022-05-20T10:38:01+08:00][sql] CONNECT:[ UseTime:0.000406s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:38:01+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000763s ]
+[2022-05-20T10:38:01+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000467s ]
+[2022-05-20T10:38:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000257s ]
+[2022-05-20T10:42:08+08:00][sql] CONNECT:[ UseTime:0.000411s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:42:08+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000701s ]
+[2022-05-20T10:42:08+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000277s ]
+[2022-05-20T10:42:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000210s ]
+[2022-05-20T10:42:10+08:00][sql] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:42:10+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000721s ]
+[2022-05-20T10:42:10+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000270s ]
+[2022-05-20T10:42:10+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000194s ]
+[2022-05-20T10:42:22+08:00][sql] CONNECT:[ UseTime:0.000505s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:42:22+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000732s ]
+[2022-05-20T10:42:22+08:00][sql] UPDATE `pro_product`  SET `id` = 1 , `color` = 'red' , `title` = '测试产品' , `image` = 'https://image.meiye.art/pic_eVVCFEc2WaY0SZymCaj8v?imageMogr2/thumbnail/450x/interlace/1' , `specif` = '1个' , `desc` = '测试产品描述' , `time` = '3天' , `proposal` = '整改建议' , `rewpun` = '整改奖惩' , `company` = '111' , `createPerson` = '宋军歌' , `createTime` = '2022-05-18 17:12:37'  WHERE  `id` = 1 [ RunTime:0.014864s ]
+[2022-05-20T10:42:28+08:00][sql] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:42:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000691s ]
+[2022-05-20T10:42:28+08:00][sql] UPDATE `pro_product`  SET `id` = 1 , `color` = 'red' , `title` = '测试产品' , `image` = 'https://image.meiye.art/pic_eVVCFEc2WaY0SZymCaj8v?imageMogr2/thumbnail/450x/interlace/1' , `specif` = '3个' , `desc` = '测试产品描述' , `time` = '3天' , `proposal` = '整改建议' , `rewpun` = '整改奖惩' , `company` = '111' , `createPerson` = '宋军歌' , `createTime` = '2022-05-18 17:12:37'  WHERE  `id` = 1 [ RunTime:0.005577s ]
+[2022-05-20T10:42:30+08:00][sql] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:42:30+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000985s ]
+[2022-05-20T10:42:30+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000325s ]
+[2022-05-20T10:42:30+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000327s ]
+[2022-05-20T10:42:51+08:00][sql] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:42:51+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000743s ]
+[2022-05-20T10:42:51+08:00][sql] UPDATE `pro_product`  SET `id` = 2 , `color` = 'red' , `title` = '1' , `image` = 'http://yunjian.qingyunjian.cn/public/upload/img/20220520/d741c81b96071d37cc53e833daaa636f.jpg' , `specif` = '11' , `desc` = '1' , `time` = '10天' , `proposal` = '测' , `rewpun` = '测' , `company` = '11' , `createPerson` = '' , `createTime` = '2022-05-19 10:05:08'  WHERE  `id` = 2 [ RunTime:0.007474s ]
+[2022-05-20T10:42:53+08:00][sql] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:42:53+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000752s ]
+[2022-05-20T10:42:53+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000362s ]
+[2022-05-20T10:42:53+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000193s ]
+[2022-05-20T10:42:59+08:00][sql] CONNECT:[ UseTime:0.000458s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:42:59+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000971s ]
+[2022-05-20T10:42:59+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000470s ]
+[2022-05-20T10:42:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000260s ]
+[2022-05-20T10:43:10+08:00][sql] CONNECT:[ UseTime:0.000475s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:43:10+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000730s ]
+[2022-05-20T10:43:10+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000321s ]
+[2022-05-20T10:43:10+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000221s ]
+[2022-05-20T10:43:13+08:00][sql] CONNECT:[ UseTime:0.000497s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:43:13+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000806s ]
+[2022-05-20T10:43:13+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000317s ]
+[2022-05-20T10:43:13+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000208s ]
+[2022-05-20T10:43:16+08:00][sql] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:43:16+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000756s ]
+[2022-05-20T10:43:16+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000284s ]
+[2022-05-20T10:43:16+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000275s ]
+[2022-05-20T10:43:32+08:00][sql] CONNECT:[ UseTime:0.000468s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:43:32+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000734s ]
+[2022-05-20T10:43:32+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000507s ]
+[2022-05-20T10:43:32+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000204s ]
+[2022-05-20T10:43:34+08:00][sql] CONNECT:[ UseTime:0.000370s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:43:34+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000935s ]
+[2022-05-20T10:43:34+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '1%' LIMIT 0,10 [ RunTime:0.000318s ]
+[2022-05-20T10:43:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '1%' LIMIT 1 [ RunTime:0.000243s ]
+[2022-05-20T10:43:37+08:00][sql] CONNECT:[ UseTime:0.000608s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:43:37+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000756s ]
+[2022-05-20T10:43:37+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '哦%' LIMIT 0,10 [ RunTime:0.000307s ]
+[2022-05-20T10:43:37+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '哦%' LIMIT 1 [ RunTime:0.000208s ]
+[2022-05-20T10:43:41+08:00][sql] CONNECT:[ UseTime:0.000528s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:43:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000692s ]
+[2022-05-20T10:43:41+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000274s ]
+[2022-05-20T10:43:41+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000215s ]
+[2022-05-20T10:43:46+08:00][sql] CONNECT:[ UseTime:0.000473s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:43:46+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000680s ]
+[2022-05-20T10:43:46+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000221s ]
+[2022-05-20T10:43:46+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000192s ]
+[2022-05-20T10:43:46+08:00][sql] CONNECT:[ UseTime:0.000382s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:43:46+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000694s ]
+[2022-05-20T10:43:46+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000275s ]
+[2022-05-20T10:43:46+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000236s ]
+[2022-05-20T10:43:47+08:00][sql] CONNECT:[ UseTime:0.000434s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:43:47+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000710s ]
+[2022-05-20T10:43:47+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000325s ]
+[2022-05-20T10:43:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000370s ]
+[2022-05-20T10:43:48+08:00][sql] CONNECT:[ UseTime:0.000501s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:43:48+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000694s ]
+[2022-05-20T10:43:48+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000430s ]
+[2022-05-20T10:43:48+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000165s ]
+[2022-05-20T10:44:23+08:00][sql] CONNECT:[ UseTime:0.000349s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:44:23+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000891s ]
+[2022-05-20T10:44:23+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000312s ]
+[2022-05-20T10:44:23+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000257s ]
+[2022-05-20T10:44:24+08:00][sql] CONNECT:[ UseTime:0.000446s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:44:24+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000729s ]
+[2022-05-20T10:44:24+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000338s ]
+[2022-05-20T10:44:24+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000233s ]
+[2022-05-20T10:44:24+08:00][sql] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:44:24+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000732s ]
+[2022-05-20T10:44:24+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000219s ]
+[2022-05-20T10:44:24+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000195s ]
+[2022-05-20T10:45:15+08:00][sql] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:45:15+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000709s ]
+[2022-05-20T10:45:15+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000278s ]
+[2022-05-20T10:45:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000190s ]
+[2022-05-20T10:45:15+08:00][sql] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:45:15+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000697s ]
+[2022-05-20T10:45:15+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000277s ]
+[2022-05-20T10:45:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000210s ]
+[2022-05-20T10:45:16+08:00][sql] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T10:45:16+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000686s ]
+[2022-05-20T10:45:16+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000217s ]
+[2022-05-20T10:45:16+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000188s ]
+[2022-05-20T15:00:32+08:00][error] [8]未定义数组索引: username[/www/wwwroot/yunjian.qingyunjian.cn/app/admin/controller/Login.php:26]
+[2022-05-20T15:02:55+08:00][sql] CONNECT:[ UseTime:0.000430s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:02:55+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000711s ]
+[2022-05-20T15:02:55+08:00][sql] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000486s ]
+[2022-05-20T15:06:59+08:00][sql] CONNECT:[ UseTime:0.000411s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:06:59+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000711s ]
+[2022-05-20T15:06:59+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000255s ]
+[2022-05-20T15:06:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000200s ]
+[2022-05-20T15:07:25+08:00][sql] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:07:25+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000722s ]
+[2022-05-20T15:07:25+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000269s ]
+[2022-05-20T15:07:25+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000203s ]
+[2022-05-20T15:17:32+08:00][sql] CONNECT:[ UseTime:0.000516s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:17:32+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000740s ]
+[2022-05-20T15:17:32+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000414s ]
+[2022-05-20T15:17:32+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000209s ]
+[2022-05-20T15:17:53+08:00][sql] CONNECT:[ UseTime:0.000436s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:17:53+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000670s ]
+[2022-05-20T15:17:53+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000279s ]
+[2022-05-20T15:17:53+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000189s ]
+[2022-05-20T15:29:31+08:00][sql] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:31+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000699s ]
+[2022-05-20T15:29:31+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000262s ]
+[2022-05-20T15:29:31+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000235s ]
+[2022-05-20T15:29:33+08:00][sql] CONNECT:[ UseTime:0.000385s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:33+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000720s ]
+[2022-05-20T15:29:33+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000310s ]
+[2022-05-20T15:29:33+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000216s ]
+[2022-05-20T15:29:34+08:00][sql] CONNECT:[ UseTime:0.000382s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:34+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000677s ]
+[2022-05-20T15:29:34+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000237s ]
+[2022-05-20T15:29:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000181s ]
+[2022-05-20T15:29:35+08:00][sql] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:35+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000678s ]
+[2022-05-20T15:29:35+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000273s ]
+[2022-05-20T15:29:35+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000192s ]
+[2022-05-20T15:29:35+08:00][sql] CONNECT:[ UseTime:0.000338s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:35+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000741s ]
+[2022-05-20T15:29:35+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000628s ]
+[2022-05-20T15:29:35+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000297s ]
+[2022-05-20T15:29:37+08:00][sql] CONNECT:[ UseTime:0.000412s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:37+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000665s ]
+[2022-05-20T15:29:37+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000292s ]
+[2022-05-20T15:29:37+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000212s ]
+[2022-05-20T15:29:37+08:00][sql] CONNECT:[ UseTime:0.000319s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:37+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000645s ]
+[2022-05-20T15:29:37+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000240s ]
+[2022-05-20T15:29:37+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000177s ]
+[2022-05-20T15:29:38+08:00][sql] CONNECT:[ UseTime:0.000340s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:38+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000687s ]
+[2022-05-20T15:29:38+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000293s ]
+[2022-05-20T15:29:38+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000210s ]
+[2022-05-20T15:29:39+08:00][sql] CONNECT:[ UseTime:0.000539s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:39+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000703s ]
+[2022-05-20T15:29:39+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000335s ]
+[2022-05-20T15:29:39+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000200s ]
+[2022-05-20T15:29:41+08:00][sql] CONNECT:[ UseTime:0.000459s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:41+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000774s ]
+[2022-05-20T15:29:41+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000290s ]
+[2022-05-20T15:29:41+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000259s ]
+[2022-05-20T15:29:43+08:00][sql] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:43+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000681s ]
+[2022-05-20T15:29:43+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000285s ]
+[2022-05-20T15:29:43+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000317s ]
+[2022-05-20T15:29:43+08:00][sql] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:43+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000836s ]
+[2022-05-20T15:29:43+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000273s ]
+[2022-05-20T15:29:43+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000224s ]
+[2022-05-20T15:29:53+08:00][sql] CONNECT:[ UseTime:0.000411s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:53+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000805s ]
+[2022-05-20T15:29:53+08:00][sql] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000288s ]
+[2022-05-20T15:29:53+08:00][sql] CONNECT:[ UseTime:0.000566s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:53+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000655s ]
+[2022-05-20T15:29:53+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000274s ]
+[2022-05-20T15:29:53+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000223s ]
+[2022-05-20T15:29:55+08:00][sql] CONNECT:[ UseTime:0.000409s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:55+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000664s ]
+[2022-05-20T15:29:55+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000250s ]
+[2022-05-20T15:29:55+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000216s ]
+[2022-05-20T15:29:55+08:00][sql] CONNECT:[ UseTime:0.000386s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:55+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000679s ]
+[2022-05-20T15:29:55+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000361s ]
+[2022-05-20T15:29:55+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000283s ]
+[2022-05-20T15:29:56+08:00][sql] CONNECT:[ UseTime:0.000455s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:29:56+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000716s ]
+[2022-05-20T15:29:56+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000276s ]
+[2022-05-20T15:29:56+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000211s ]
+[2022-05-20T15:51:12+08:00][sql] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:51:12+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000727s ]
+[2022-05-20T15:51:12+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000379s ]
+[2022-05-20T15:51:12+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000207s ]
+[2022-05-20T15:51:14+08:00][sql] CONNECT:[ UseTime:0.000429s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:51:14+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000793s ]
+[2022-05-20T15:51:14+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000311s ]
+[2022-05-20T15:51:14+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000223s ]
+[2022-05-20T15:51:14+08:00][sql] CONNECT:[ UseTime:0.000441s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:51:14+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000677s ]
+[2022-05-20T15:51:14+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000252s ]
+[2022-05-20T15:51:14+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000229s ]
+[2022-05-20T15:51:15+08:00][sql] CONNECT:[ UseTime:0.000430s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:51:15+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000764s ]
+[2022-05-20T15:51:15+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000341s ]
+[2022-05-20T15:51:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000207s ]
+[2022-05-20T15:51:17+08:00][sql] CONNECT:[ UseTime:0.000425s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:51:17+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000698s ]
+[2022-05-20T15:51:17+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000310s ]
+[2022-05-20T15:51:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000247s ]
+[2022-05-20T15:51:18+08:00][sql] CONNECT:[ UseTime:0.000399s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:51:18+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000702s ]
+[2022-05-20T15:51:18+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000270s ]
+[2022-05-20T15:51:18+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000221s ]
+[2022-05-20T15:51:18+08:00][sql] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:51:18+08:00][sql] SHOW FULL COLUMNS FROM `pro_swiper` [ RunTime:0.000648s ]
+[2022-05-20T15:51:18+08:00][sql] SELECT * FROM `pro_swiper` LIMIT 0,10 [ RunTime:0.000253s ]
+[2022-05-20T15:51:18+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_swiper` LIMIT 1 [ RunTime:0.000182s ]
+[2022-05-20T15:51:20+08:00][sql] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:51:20+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000729s ]
+[2022-05-20T15:51:20+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000349s ]
+[2022-05-20T15:51:20+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000194s ]
+[2022-05-20T15:51:20+08:00][sql] CONNECT:[ UseTime:0.000419s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:51:20+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000837s ]
+[2022-05-20T15:51:20+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000294s ]
+[2022-05-20T15:51:20+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000212s ]
+[2022-05-20T15:51:23+08:00][sql] CONNECT:[ UseTime:0.000419s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:51:23+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000716s ]
+[2022-05-20T15:51:23+08:00][sql] DELETE FROM `pro_product` WHERE  `id` = 11 [ RunTime:0.005215s ]
+[2022-05-20T15:51:26+08:00][sql] CONNECT:[ UseTime:0.000359s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:51:26+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000734s ]
+[2022-05-20T15:51:26+08:00][sql] DELETE FROM `pro_product` WHERE  `id` = 10 [ RunTime:0.005301s ]
+[2022-05-20T15:51:28+08:00][sql] CONNECT:[ UseTime:0.000338s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-20T15:51:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000856s ]
+[2022-05-20T15:51:28+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000314s ]
+[2022-05-20T15:51:28+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000275s ]

@@ -1,0 +1,161 @@
+[2022-05-23T09:25:29+08:00][sql] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T09:25:29+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000720s ]
+[2022-05-23T09:25:29+08:00][sql] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000268s ]
+[2022-05-23T09:25:29+08:00][sql] CONNECT:[ UseTime:0.000347s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T09:25:29+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000676s ]
+[2022-05-23T09:25:29+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000272s ]
+[2022-05-23T09:25:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000218s ]
+[2022-05-23T09:25:38+08:00][sql] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T09:25:38+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000721s ]
+[2022-05-23T09:25:38+08:00][sql] UPDATE `pro_user`  SET `id` = 5 , `username` = '华宁' , `mobile` = '15806353853' , `password` = '1357' , `company` = '和美' , `status` = 2 , `rules` = 'admin' , `createTime` = '2022-05-21 08:19:58'  WHERE  `id` = 5 [ RunTime:0.004799s ]
+[2022-05-23T09:25:42+08:00][sql] CONNECT:[ UseTime:0.000450s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T09:25:42+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000684s ]
+[2022-05-23T09:25:42+08:00][sql] UPDATE `pro_user`  SET `id` = 6 , `username` = '陈成东' , `mobile` = '18605391362' , `password` = '666369' , `company` = '山东和美食品有限公司' , `status` = 2 , `rules` = 'admin' , `createTime` = '2022-05-21 08:39:09'  WHERE  `id` = 6 [ RunTime:0.004746s ]
+[2022-05-23T09:25:46+08:00][sql] CONNECT:[ UseTime:0.000438s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T09:25:46+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000698s ]
+[2022-05-23T09:25:46+08:00][sql] UPDATE `pro_user`  SET `id` = 8 , `username` = '桑志强' , `mobile` = '13563072176' , `password` = '840720' , `company` = '山东和美食品有限公司' , `status` = 2 , `rules` = 'admin' , `createTime` = '2022-05-22 12:22:57'  WHERE  `id` = 8 [ RunTime:0.003933s ]
+[2022-05-23T09:25:47+08:00][sql] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T09:25:47+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000712s ]
+[2022-05-23T09:25:47+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000269s ]
+[2022-05-23T09:25:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000218s ]
+[2022-05-23T09:30:35+08:00][sql] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T09:30:35+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000684s ]
+[2022-05-23T09:30:35+08:00][sql] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000256s ]
+[2022-05-23T09:30:36+08:00][sql] CONNECT:[ UseTime:0.000329s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T09:30:36+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000662s ]
+[2022-05-23T09:30:36+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000271s ]
+[2022-05-23T09:30:36+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000189s ]
+[2022-05-23T09:30:57+08:00][sql] CONNECT:[ UseTime:0.000498s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T09:30:57+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.002774s ]
+[2022-05-23T09:30:57+08:00][sql] UPDATE `pro_user`  SET `id` = 8 , `username` = '桑志强' , `mobile` = '13563072176' , `password` = '840720' , `company` = '山东和美食品有限公司' , `status` = 2 , `rules` = 'admin' , `createTime` = '2022-05-22 12:22:57'  WHERE  `id` = 8 [ RunTime:0.004109s ]
+[2022-05-23T09:31:28+08:00][sql] CONNECT:[ UseTime:0.000476s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T09:31:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000706s ]
+[2022-05-23T09:31:28+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000317s ]
+[2022-05-23T09:31:28+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000192s ]
+[2022-05-23T09:31:32+08:00][sql] CONNECT:[ UseTime:0.000385s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T09:31:32+08:00][sql] SHOW FULL COLUMNS FROM `pro_product` [ RunTime:0.000688s ]
+[2022-05-23T09:31:32+08:00][sql] SELECT * FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 0,10 [ RunTime:0.000274s ]
+[2022-05-23T09:31:32+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_product` WHERE  `title` LIKE '%' LIMIT 1 [ RunTime:0.000195s ]
+[2022-05-23T09:34:15+08:00][sql] CONNECT:[ UseTime:0.000364s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T09:34:15+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000684s ]
+[2022-05-23T09:34:15+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000267s ]
+[2022-05-23T09:34:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000214s ]
+[2022-05-23T11:18:47+08:00][sql] CONNECT:[ UseTime:0.000323s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T11:18:47+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000681s ]
+[2022-05-23T11:18:47+08:00][sql] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000301s ]
+[2022-05-23T11:20:21+08:00][sql] CONNECT:[ UseTime:0.000576s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T11:20:21+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000784s ]
+[2022-05-23T11:20:21+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000357s ]
+[2022-05-23T11:20:21+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000192s ]
+[2022-05-23T11:20:27+08:00][sql] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T11:20:27+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000735s ]
+[2022-05-23T11:20:27+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000494s ]
+[2022-05-23T11:20:27+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000202s ]
+[2022-05-23T11:20:37+08:00][sql] CONNECT:[ UseTime:0.000384s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T11:20:37+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000703s ]
+[2022-05-23T11:20:37+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000292s ]
+[2022-05-23T11:20:37+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000202s ]
+[2022-05-23T11:20:44+08:00][sql] CONNECT:[ UseTime:0.000440s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T11:20:44+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000703s ]
+[2022-05-23T11:20:44+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000316s ]
+[2022-05-23T11:20:44+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000330s ]
+[2022-05-23T11:20:47+08:00][sql] CONNECT:[ UseTime:0.000558s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T11:20:47+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000900s ]
+[2022-05-23T11:20:47+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000287s ]
+[2022-05-23T11:20:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000200s ]
+[2022-05-23T11:20:48+08:00][sql] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T11:20:48+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000696s ]
+[2022-05-23T11:20:48+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000258s ]
+[2022-05-23T11:20:48+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000251s ]
+[2022-05-23T11:21:30+08:00][sql] CONNECT:[ UseTime:0.000473s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T11:21:30+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000873s ]
+[2022-05-23T11:21:30+08:00][sql] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000266s ]
+[2022-05-23T11:21:30+08:00][sql] CONNECT:[ UseTime:0.000426s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T11:21:30+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000786s ]
+[2022-05-23T11:21:30+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000271s ]
+[2022-05-23T11:21:30+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000198s ]
+[2022-05-23T11:23:27+08:00][sql] CONNECT:[ UseTime:0.000357s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T11:23:27+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.002689s ]
+[2022-05-23T11:23:27+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000260s ]
+[2022-05-23T11:23:27+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000198s ]
+[2022-05-23T11:23:28+08:00][sql] CONNECT:[ UseTime:0.000627s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T11:23:28+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000758s ]
+[2022-05-23T11:23:28+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000275s ]
+[2022-05-23T11:23:28+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000204s ]
+[2022-05-23T11:23:56+08:00][sql] CONNECT:[ UseTime:0.000338s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T11:23:56+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000764s ]
+[2022-05-23T11:23:56+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000295s ]
+[2022-05-23T11:23:56+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000221s ]
+[2022-05-23T11:24:04+08:00][sql] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T11:24:04+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000667s ]
+[2022-05-23T11:24:04+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000330s ]
+[2022-05-23T11:24:04+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000271s ]
+[2022-05-23T14:13:20+08:00][sql] CONNECT:[ UseTime:0.000334s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T14:13:20+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000872s ]
+[2022-05-23T14:13:20+08:00][sql] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000336s ]
+[2022-05-23T14:13:20+08:00][sql] CONNECT:[ UseTime:0.009111s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T14:13:20+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000918s ]
+[2022-05-23T14:13:20+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000313s ]
+[2022-05-23T14:13:20+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000314s ]
+[2022-05-23T14:13:23+08:00][sql] CONNECT:[ UseTime:0.000554s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T14:13:23+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000869s ]
+[2022-05-23T14:13:23+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000379s ]
+[2022-05-23T14:13:23+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000277s ]
+[2022-05-23T14:13:24+08:00][sql] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T14:13:24+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000949s ]
+[2022-05-23T14:13:24+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000382s ]
+[2022-05-23T14:13:24+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.001630s ]
+[2022-05-23T14:14:51+08:00][sql] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T14:14:51+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000852s ]
+[2022-05-23T14:14:51+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000341s ]
+[2022-05-23T14:14:51+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000259s ]
+[2022-05-23T14:15:02+08:00][sql] CONNECT:[ UseTime:0.000351s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T14:15:02+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000797s ]
+[2022-05-23T14:15:02+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000640s ]
+[2022-05-23T14:15:02+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000275s ]
+[2022-05-23T14:19:03+08:00][sql] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T14:19:03+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.003541s ]
+[2022-05-23T14:19:03+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000300s ]
+[2022-05-23T14:19:03+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000206s ]
+[2022-05-23T14:25:52+08:00][sql] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T14:25:52+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000858s ]
+[2022-05-23T14:25:52+08:00][sql] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000318s ]
+[2022-05-23T14:25:53+08:00][sql] CONNECT:[ UseTime:0.000377s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T14:25:53+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000731s ]
+[2022-05-23T14:25:53+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000378s ]
+[2022-05-23T14:25:53+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.001612s ]
+[2022-05-23T14:34:15+08:00][sql] CONNECT:[ UseTime:0.001711s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T14:34:15+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000740s ]
+[2022-05-23T14:34:15+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000662s ]
+[2022-05-23T14:34:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000256s ]
+[2022-05-23T14:34:23+08:00][sql] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T14:34:23+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000822s ]
+[2022-05-23T14:34:23+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000313s ]
+[2022-05-23T14:34:23+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.001686s ]
+[2022-05-23T14:34:27+08:00][sql] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T14:34:27+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000778s ]
+[2022-05-23T14:34:27+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000297s ]
+[2022-05-23T14:34:27+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000258s ]
+[2022-05-23T14:34:27+08:00][sql] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T14:34:27+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000749s ]
+[2022-05-23T14:34:27+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000347s ]
+[2022-05-23T14:34:27+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000430s ]
+[2022-05-23T14:36:31+08:00][sql] CONNECT:[ UseTime:0.000597s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T14:36:31+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000762s ]
+[2022-05-23T14:36:31+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000373s ]
+[2022-05-23T14:36:31+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000198s ]
+[2022-05-23T15:33:48+08:00][sql] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T15:33:48+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000757s ]
+[2022-05-23T15:33:48+08:00][sql] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000274s ]
+[2022-05-23T15:33:49+08:00][sql] CONNECT:[ UseTime:0.000361s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T15:33:49+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000767s ]
+[2022-05-23T15:33:49+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000416s ]
+[2022-05-23T15:33:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000236s ]
+[2022-05-23T15:33:55+08:00][sql] CONNECT:[ UseTime:0.000418s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T15:33:55+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000712s ]
+[2022-05-23T15:33:55+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000290s ]
+[2022-05-23T15:33:55+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000239s ]
+[2022-05-23T15:47:40+08:00][sql] CONNECT:[ UseTime:0.001748s ] mysql:host=127.0.0.1;port=3306;dbname=yunjian_qingyunj;charset=utf8
+[2022-05-23T15:47:40+08:00][sql] SHOW FULL COLUMNS FROM `pro_user` [ RunTime:0.000908s ]
+[2022-05-23T15:47:40+08:00][sql] SELECT * FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 0,10 [ RunTime:0.000572s ]
+[2022-05-23T15:47:40+08:00][sql] SELECT COUNT(*) AS think_count FROM `pro_user` WHERE  `username` LIKE '%' LIMIT 1 [ RunTime:0.000257s ]

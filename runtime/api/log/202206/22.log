@@ -1,0 +1,36 @@
+[2022-06-22T02:02:26+08:00][error] [8]未定义数组索引: userid[/www/wwwroot/jzapp.qingyunjian.cn/app/api/controller/Record.php:26]
+[2022-06-22T02:47:42+08:00][error] [8]未定义数组索引: icon[/www/wwwroot/jzapp.qingyunjian.cn/app/common/Api/RecordList.php:28]
+[2022-06-22T02:47:42+08:00][error] [8]未定义数组索引: icon[/www/wwwroot/jzapp.qingyunjian.cn/app/common/Api/RecordList.php:28]
+[2022-06-22T03:41:00+08:00][error] [8]未定义数组索引: userid[/www/wwwroot/jzapp.qingyunjian.cn/app/api/controller/Record.php:38]
+[2022-06-22T07:02:57+08:00][sql] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;port=3306;dbname=jzapp_qingyunjia;charset=utf8
+[2022-06-22T07:02:57+08:00][sql] SHOW FULL COLUMNS FROM `jz_record` [ RunTime:0.000822s ]
+[2022-06-22T07:02:57+08:00][sql] SELECT * FROM `jz_record` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000364s ]
+[2022-06-22T07:09:57+08:00][error] [8]未定义数组索引: userid[/www/wwwroot/jzapp.qingyunjian.cn/app/api/controller/Record.php:68]
+[2022-06-22T10:08:09+08:00][sql] CONNECT:[ UseTime:0.000425s ] mysql:host=127.0.0.1;port=3306;dbname=jzapp_qingyunjia;charset=utf8
+[2022-06-22T10:08:09+08:00][sql] SHOW FULL COLUMNS FROM `jz_user` [ RunTime:0.000770s ]
+[2022-06-22T10:08:09+08:00][sql] SELECT * FROM `jz_user` WHERE  `username` = '蛋炒饭' LIMIT 1 [ RunTime:0.000300s ]
+[2022-06-22T10:08:09+08:00][sql] CONNECT:[ UseTime:0.000321s ] mysql:host=127.0.0.1;port=3306;dbname=jzapp_qingyunjia;charset=utf8
+[2022-06-22T10:08:09+08:00][sql] SHOW FULL COLUMNS FROM `jz_record` [ RunTime:0.000786s ]
+[2022-06-22T10:08:09+08:00][sql] SELECT SUM(`money`) AS think_sum FROM `jz_record` WHERE  `userid` = '001001'  AND `CreatTime` BETWEEN '2022-01-01 00:00:00' AND '2022-12-31 23:59:59' LIMIT 1 [ RunTime:0.000282s ]
+[2022-06-22T10:08:09+08:00][sql] SELECT SUM(`money`) AS think_sum FROM `jz_record` WHERE  `userid` = '001001'  AND `CreatTime` BETWEEN '2022-06-01 00:00:00' AND '2022-06-30 23:59:59' LIMIT 1 [ RunTime:0.000281s ]
+[2022-06-22T10:08:09+08:00][sql] SELECT SUM(`money`) AS think_sum FROM `jz_record` WHERE  `userid` = '001001'  AND `CreatTime` BETWEEN '2022-06-20 00:00:00' AND '2022-06-26 23:59:59' LIMIT 1 [ RunTime:0.000205s ]
+[2022-06-22T10:08:09+08:00][sql] SELECT SUM(`money`) AS think_sum FROM `jz_record` WHERE  `userid` = '001001'  AND `CreatTime` BETWEEN '2022-06-22 00:00:00' AND '2022-06-22 23:59:59' LIMIT 1 [ RunTime:0.000197s ]
+[2022-06-22T10:08:09+08:00][sql] SELECT * FROM `jz_record` WHERE  `userid` = '001001' ORDER BY `time` DESC LIMIT 6 [ RunTime:0.000289s ]
+[2022-06-22T10:08:19+08:00][sql] CONNECT:[ UseTime:0.000426s ] mysql:host=127.0.0.1;port=3306;dbname=jzapp_qingyunjia;charset=utf8
+[2022-06-22T10:08:19+08:00][sql] SHOW FULL COLUMNS FROM `jz_record` [ RunTime:0.000711s ]
+[2022-06-22T10:08:19+08:00][sql] SELECT * FROM `jz_record` WHERE  `userid` = '001001'  AND `type` = 1  AND `CreatTime` BETWEEN '2022-04-01 00:00:00' AND '2022-04-30 23:59:59' [ RunTime:0.000429s ]
+[2022-06-22T10:08:19+08:00][sql] SELECT SUM(`money`) AS think_sum FROM `jz_record` WHERE  `userid` = '001001'  AND `type` = 1  AND `CreatTime` BETWEEN '2022-04-01 00:00:00' AND '2022-04-30 23:59:59' LIMIT 1 [ RunTime:0.000292s ]
+[2022-06-22T10:08:19+08:00][sql] SELECT SUM(`money`) AS think_sum FROM `jz_record` WHERE  `userid` = '001001'  AND `type` = 2  AND `CreatTime` BETWEEN '2022-04-01 00:00:00' AND '2022-04-30 23:59:59' LIMIT 1 [ RunTime:0.000203s ]
+[2022-06-22T10:08:21+08:00][sql] CONNECT:[ UseTime:0.000331s ] mysql:host=127.0.0.1;port=3306;dbname=jzapp_qingyunjia;charset=utf8
+[2022-06-22T10:08:21+08:00][sql] SHOW FULL COLUMNS FROM `jz_record` [ RunTime:0.000706s ]
+[2022-06-22T10:08:21+08:00][sql] SELECT SUM(`money`) AS think_sum FROM `jz_record` WHERE  `userid` = '001001'  AND `type` = 1  AND `title` = '交通'  AND `CreatTime` BETWEEN '2022-04-01 00:00:00' AND '2022-04-30 23:59:59' LIMIT 1 [ RunTime:0.000312s ]
+[2022-06-22T10:08:21+08:00][sql] SELECT SUM(`money`) AS think_sum FROM `jz_record` WHERE  `userid` = '001001'  AND `type` = 1  AND `title` = '餐饮'  AND `CreatTime` BETWEEN '2022-04-01 00:00:00' AND '2022-04-30 23:59:59' LIMIT 1 [ RunTime:0.000500s ]
+[2022-06-22T10:08:21+08:00][sql] SELECT SUM(`money`) AS think_sum FROM `jz_record` WHERE  `userid` = '001001'  AND `type` = 1  AND `title` = '娱乐'  AND `CreatTime` BETWEEN '2022-04-01 00:00:00' AND '2022-04-30 23:59:59' LIMIT 1 [ RunTime:0.000301s ]
+[2022-06-22T10:08:21+08:00][sql] SELECT SUM(`money`) AS think_sum FROM `jz_record` WHERE  `userid` = '001001'  AND `type` = 1  AND `title` = '健康'  AND `CreatTime` BETWEEN '2022-04-01 00:00:00' AND '2022-04-30 23:59:59' LIMIT 1 [ RunTime:0.000228s ]
+[2022-06-22T10:08:21+08:00][sql] SELECT SUM(`money`) AS think_sum FROM `jz_record` WHERE  `userid` = '001001'  AND `type` = 1  AND `title` = '居家'  AND `CreatTime` BETWEEN '2022-04-01 00:00:00' AND '2022-04-30 23:59:59' LIMIT 1 [ RunTime:0.000286s ]
+[2022-06-22T10:08:21+08:00][sql] SELECT SUM(`money`) AS think_sum FROM `jz_record` WHERE  `userid` = '001001'  AND `type` = 1  AND `title` = '购物'  AND `CreatTime` BETWEEN '2022-04-01 00:00:00' AND '2022-04-30 23:59:59' LIMIT 1 [ RunTime:0.000264s ]
+[2022-06-22T10:08:21+08:00][sql] SELECT SUM(`money`) AS think_sum FROM `jz_record` WHERE  `userid` = '001001'  AND `type` = 1  AND `title` = '文教'  AND `CreatTime` BETWEEN '2022-04-01 00:00:00' AND '2022-04-30 23:59:59' LIMIT 1 [ RunTime:0.000223s ]
+[2022-06-22T10:08:21+08:00][sql] SELECT SUM(`money`) AS think_sum FROM `jz_record` WHERE  `userid` = '001001'  AND `type` = 1  AND `title` = '其他'  AND `CreatTime` BETWEEN '2022-04-01 00:00:00' AND '2022-04-30 23:59:59' LIMIT 1 [ RunTime:0.000280s ]
+[2022-06-22T15:21:34+08:00][sql] CONNECT:[ UseTime:0.000696s ] mysql:host=127.0.0.1;port=3306;dbname=jzapp_qingyunjia;charset=utf8
+[2022-06-22T15:21:34+08:00][sql] SHOW FULL COLUMNS FROM `jz_record` [ RunTime:0.000787s ]
+[2022-06-22T15:21:34+08:00][sql] SELECT * FROM `jz_record` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000460s ]
