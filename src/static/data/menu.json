@@ -1,0 +1,22 @@
+{
+    "menudata": [{
+            "id": 1,
+            "title": "系统管理",
+            "path": "system",
+            "icon": "el-icon-setting",
+            "display": true,
+            "type": 0,
+            "name": null,
+            "children": [{
+                "id": 11,
+                "title": "用户中心",
+                "path": "/system/user",
+                "icon": "el-icon-s-custom",
+                "name": null,
+                "display": true,
+                "type": 1
+            }]
+        }
+
+    ]
+}

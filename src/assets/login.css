@@ -1,0 +1,39 @@
+.contanier {
+	width: 100%;
+	height: 100vh;
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+}
+
+.login-content {
+	width: 400px;
+	min-height: 300px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 30px 30px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+	z-index: 9999;
+}
+
+.login-content .el-form-item:nth-child(1) {
+	flex-flow: column;
+	/* line-height: 40px; */
+}
+.login-content .el-form-item:nth-child(1) h2{
+	font-size: 20px;
+}
+.login-content .el-form-item:nth-child(1) h4{
+	color: #8e8e8e;
+}
+.login-content .el-form-item {
+	display: flex;
+	text-align: center;
+}
+
+.login-content .submit {
+	width: 100%;
+}
