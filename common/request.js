@@ -1,4 +1,4 @@
-const baseUrl = 'http://jzapp.qingyunjian.cn';//http://jzapp.qingyunjian.cn   /prex
+const baseUrl = '接口地址';//   /prex
 const header = {
 	'content-type': 'application/json;charset=utf-8'
 };
