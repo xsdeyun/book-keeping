@@ -2,7 +2,7 @@ import Axios from 'axios'
 import { Message } from 'element-ui';
 
 const request = Axios.create({
-    baseURL: 'http://jzapp.qingyunjian.cn',
+    baseURL: '接口地址',
     timeout: 30000
 })
 
