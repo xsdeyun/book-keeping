@@ -4,7 +4,7 @@ module.exports = defineConfig({
   devServer: {
     proxy: {
         '/api': {
-            target: 'http://jzapp.qingyunjian.cn',
+            target: '接口地址',
     ws: true,
             changeOrigin: true,
     pathRewrite: { '^/api': '' },
