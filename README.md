@@ -1,41 +1,25 @@
-# Book-keeping
+**新拟态是一种图形样式，其原理是为界面的UI元素赋予真实感。**
 
-#### 介绍
-新拟态记账微信小程序网站H5，UI拟态记账
-前端
+## **介绍：**
+#####  1、前端
  - 使用uni-app框架进行搭建，支持vue3、vue2
  - 使用拟态UI元素创作，页面布局flex
  - 基本功能已经全部实现，后期做初步升级优化
-
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+ - 
+ 
+#####  2、后端
+ - Thinkphp框架进行接口的搭建
+ - 后台管理使用的vue2+elementUI进行的搭建（不在这里展示了）
+ - 后台功能进行了简单的交互
 
 
-#### 特技
+## 预览地址
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+[记账小程序预览地址（H5版本）](http://jzapp.qingyunjian.cn/h5)
+
+*效果预览图：*
+|![在这里插入图片描述](https://img-blog.csdnimg.cn/276b19725ada41158c18ec8199af642b.png#pic_center)  | ![在这里插入图片描述](https://img-blog.csdnimg.cn/a0d15b6285e342779ca0c3d57d9aad2b.png#pic_center) |
+|--|--|
+|  ![在这里插入图片描述](https://img-blog.csdnimg.cn/ac2b70b1f0c14546bfb3f4547c86c3d3.png#pic_center)|![在这里插入图片描述](https://img-blog.csdnimg.cn/21f2e0855fb0435eb90c2044db090c2e.png#pic_center)  |
+|![在这里插入图片描述](https://img-blog.csdnimg.cn/e7a843f244d242538752e0316e8f21d4.png#pic_center)  |  ![在这里插入图片描述](https://img-blog.csdnimg.cn/24da1e644e4541a4a671771fbc909194.png#pic_center)|
+|--|--|
